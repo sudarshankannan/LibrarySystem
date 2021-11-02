@@ -2,8 +2,13 @@ package com.example.services;
 
 import java.util.List;
 
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Service;
+
 import com.example.model.Book;
 
+@Service
+@ComponentScan({"com.example.services"})
 public interface BookRestService {
 
 	public List<Book> getAllBooks();

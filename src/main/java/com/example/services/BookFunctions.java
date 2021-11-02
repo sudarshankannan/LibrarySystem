@@ -2,15 +2,16 @@ package com.example.services;
 
 import java.util.List;
 
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
 import org.springframework.transaction.annotation.Transactional;
 
 import com.example.model.Book;
-
-import Repositories.BookRepo;
+import com.example.repositories.BookRepo;
 
 @Service
+@ComponentScan({"com.example.repositories"})
 public class BookFunctions implements BookRestService {
 
 	private final BookRepo bookRepo;
