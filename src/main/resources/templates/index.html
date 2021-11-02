@@ -1,0 +1,100 @@
+
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>The Great Library</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+	<link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.4.1/css/all.css">
+	
+</head>
+
+<body>
+	<nav th:fragment= "header" class="navbar navbar-expand-lg navbar-dark" style="background-color: #3A5A81; color: white;">
+	  	<a class="navbar-brand">Library Management System</a>
+	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    	<span class="navbar-toggler-icon"></span>
+	  	</button>
+	  	<div class="collapse navbar-collapse" id="navbarSupportedContent" >
+	    	<ul class="navbar-nav mr-auto" >
+		      	<li class="nav-item active">
+		        	<a class="nav-link" href="/">Home <span class="sr-only"></span></a>
+		      	</li>
+		     	<li class="nav-item active">
+		      	  	<a class="nav-link" href="/addbook">Add Book </a>
+		     	</li>
+		      	<li class="nav-item active">
+		        	<a class="nav-link" href="/searchbook">Search Book </a>
+		      	</li>
+		      	<li class="nav-item active">
+		        	<a class="nav-link" href="/createaccount">Create Account </a>
+		      	</li>
+		    </ul>
+	  	</div>
+	</nav>
+	<div>
+	  		<br></br>
+	  		<br></br>
+	  	</div>
+	<div class="container">
+            <!-- Example row of columns -->
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="panel panel-info">
+                        <div class ="panel-heading">
+                            <h2>Book Search</h2>
+                        </div>
+                        <div class="panel-body">
+                            <p>Search for the books in our catalog.</p>
+                            <p><a class="btn btn-primary" href="SearchBookController" role="button">Search for a Book &raquo;</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-info">
+                        <div class ="panel-heading">
+                            <h2>Login</h2>
+                        </div>
+                        <div class="panel-body">
+                            <p>Existing patrons: sign here to view your account</p>
+                            <p><a class="btn btn-primary" href="Login" role="button">Login &raquo;</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="panel panel-info">
+                        <div class ="panel-heading">
+                            <h2>Signup</h2>
+                        </div>
+                        <div class="panel-body">
+                            <p>New to the Library? Sign up here!</p>
+                            <p><a class="btn btn-primary" href="Signup" role="button">Sign Up &raquo;</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-info">
+                        <div class ="panel-heading">
+                            <h2>Librarians: log in here</h2>
+                        </div>
+                        <div class="panel-body">
+                            <p>Librarians ONLY</p>
+                            <p><a class="btn btn-primary" href="LibrarianLogin" role="button">Log in &raquo;</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+	<div th:insert="fragments/header :: header"></div>
+	<footer th:fragment="footer"  class="page-footer font-small cyan darken-3">
+		<div class="footer-copyright text-center col-md-15 py-5">
+			© 2021 Copyright: <a href="/">greatlibrary.com</a>
+		</div>
+	</footer>
+</body>
+</html>
