@@ -26,7 +26,7 @@ public class AddBookController {
 		this.bService = bookService;
 	}
 
-	@RequestMapping("/books")
+	@GetMapping("/books")
 	public String findAllBooks(Model model) {
 		final List<Book> books = bService.getAllBooks();
 
@@ -34,16 +34,16 @@ public class AddBookController {
 		return "list-books";
 	}
 
-	@RequestMapping("/searchBook")
+	@GetMapping("/searchBook")
 	public String searchBook(@Param("keyword") String title, Model model) {
-		final List<Book> books = bService.searchBooks(title);
-
-		model.addAttribute("books", books);
-		model.addAttribute("title", title);
-		return "list-books";
+//		final List<Book> books = bService.searchBooks(title);
+//
+//		model.addAttribute("books", books);
+//		model.addAttribute("title", title);
+		return "searchbook";
 	}
 
-	@RequestMapping("/book/{isbn}")
+	@GetMapping("/book/{isbn}")
 	public String findBookById(@PathVariable("isbn") Long isbn, Model model) {
 		final Book book = bService.getByISBN(isbn);
 
@@ -51,10 +51,10 @@ public class AddBookController {
 		return "list-book";
 	}
 
-	@RequestMapping("/addbook")
+	@GetMapping("/addbook")
 	public String addBook(Book book, BindingResult result, Model model) {
 		if (result.hasErrors()) {
-			return "add-book";
+			return "addbook";
 		}
 
 		bService.addBook(book);
@@ -70,7 +70,7 @@ public class AddBookController {
 		return "update-book";
 	}
 
-	@RequestMapping("/update-book/{isbn}")
+	@GetMapping("/update-book/{isbn}")
 	public String updateBook(@PathVariable("isbn") Long isbn, Book book, BindingResult result, Model model) {
 		if (result.hasErrors()) {
 			book.setISBN(isbn);
@@ -82,7 +82,7 @@ public class AddBookController {
 		return "redirect:/books";
 	}
 
-	@RequestMapping("/remove-book/{isbn}")
+	@GetMapping("/remove-book/{isbn}")
 	public String deleteBook(@PathVariable("isbn") Long isbn, Model model) {
 		bService.deleteBook(isbn);
 
