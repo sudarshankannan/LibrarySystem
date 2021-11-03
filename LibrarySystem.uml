@@ -4,7 +4,14 @@
     <eAnnotations xmi:id="_aNkpYDwtEey5Q4OcZlJBuQ" source="http://ns.yatta.de/umllab">
       <contents xmi:type="ecore:EAnnotation" xmi:id="_aNlQcDwtEey5Q4OcZlJBuQ" source="codegen">
         <details xmi:id="_aNlQcTwtEey5Q4OcZlJBuQ" key="codegenDirectory" value="/LibrarySystem/src/main/java"/>
-        <details xmi:id="_nJ1VYDw2EeycacHjxt9dvQ" key="AssociatedSourceCode" value="/LibrarySystem/src/main/java/com/example/LibrarySystem/LibrarySystemApplication.java;1003452089/1;/LibrarySystem/src/main/java/com/example/repositories/BookRepo.java;2316236515/1;/LibrarySystem/src/main/java/com/example/services/BookNotFoundException.java;120889572/1;/LibrarySystem/src/main/java/com/example/services/BookRestService.java;3459244216/1;/LibrarySystem/src/main/java/com/example/repositories/AccountRepo.java;318698200/1;/LibrarySystem/src/main/java/com/example/model/Librarian.java;3548025684/1;/LibrarySystem/src/main/java/com/example/controllers/IndexController.java;1607556390/1;/LibrarySystem/src/main/java/com/example/controllers/AddBookController.java;2366267477/1;/LibrarySystem/.mvn/wrapper/MavenWrapperDownloader.java;1035578600/1;/LibrarySystem/src/test/java/com/example/LibrarySystem/LibrarySystemApplicationTests.java;673439408/1;/LibrarySystem/src/main/java/com/example/model/Book.java;4080550738/1;/LibrarySystem/src/main/java/com/example/model/Patron.java;185730981/1;/LibrarySystem/src/main/java/com/example/services/BookFunctions.java;1004171008/1;"/>
+        <details xmi:id="_nJ1VYDw2EeycacHjxt9dvQ" key="AssociatedSourceCode" value="/LibrarySystem/src/main/java/com/example/repositories/BookRepo.java;2316236515/1;/LibrarySystem/src/main/java/com/example/services/BookNotFoundException.java;120889572/1;/LibrarySystem/src/main/java/com/example/services/BookRestService.java;3908199959/1;/LibrarySystem/src/main/java/com/example/repositories/AccountRepo.java;318698200/1;/LibrarySystem/src/main/java/com/example/model/Librarian.java;3548025684/1;/LibrarySystem/src/main/java/com/example/controllers/IndexController.java;1607556390/1;/LibrarySystem/src/main/java/com/example/controllers/AddBookController.java;218615859/1;/LibrarySystem/.mvn/wrapper/MavenWrapperDownloader.java;1035578600/1;/LibrarySystem/src/test/java/com/example/LibrarySystem/LibrarySystemApplicationTests.java;673439408/1;/LibrarySystem/src/main/java/com/example/model/Book.java;4080550738/1;/LibrarySystem/src/main/java/com/example/model/Patron.java;185730981/1;/LibrarySystem/src/main/java/com/example/services/BookFunctions.java;1004171008/1;"/>
+      </contents>
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_myvtQDxFEeyB6tZvSu8w7Q" source="preferences">
+        <contents xmi:type="ecore:EAnnotation" xmi:id="_mywUUDxFEeyB6tZvSu8w7Q" source="com.yattasolutions.codegen.reverse">
+          <details xmi:id="_myw7YDxFEeyB6tZvSu8w7Q" key="com.yattasolutions.codegen.reverse.roundtrip.ReverseEngineerNewFiles" value="true"/>
+          <details xmi:id="_myxicDxFEeyB6tZvSu8w7Q" key="com.yattasolutions.codegen.reverse.roundtrip.RemoveDeletedFiles" value="true"/>
+          <details xmi:id="_myxicTxFEeyB6tZvSu8w7Q" key="com.yattasolutions.codegen.reverse.roundtrip.ReverseEngineerChangedFiles" value="true"/>
+        </contents>
       </contents>
     </eAnnotations>
     <elementImport xmi:id="_agKOMDwtEey5Q4OcZlJBuQ">
@@ -37,23 +44,6 @@
     <packagedElement xmi:type="uml:Package" xmi:id="_aen9IDwtEey5Q4OcZlJBuQ" name="com">
       <packagedElement xmi:type="uml:Package" xmi:id="_aepLQDwtEey5Q4OcZlJBuQ" name="example">
         <packagedElement xmi:type="uml:Package" xmi:id="_aezjUDwtEey5Q4OcZlJBuQ" name="LibrarySystem">
-          <packagedElement xmi:type="uml:Class" xmi:id="_agFVsDwtEey5Q4OcZlJBuQ" name="LibrarySystemApplication">
-            <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_amA-kDwtEey5Q4OcZlJBuQ" name="main" specification="_agLcUDwtEey5Q4OcZlJBuQ">
-              <ownedParameter xmi:id="_amBloDwtEey5Q4OcZlJBuQ" name="args">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_amBloTwtEey5Q4OcZlJBuQ" value="*"/>
-              </ownedParameter>
-              <language>java</language>
-              <body>SpringApplication.run(LibrarySystemApplication.class, args);
-	</body>
-            </ownedBehavior>
-            <ownedOperation xmi:id="_agLcUDwtEey5Q4OcZlJBuQ" name="main" isStatic="true" method="_amA-kDwtEey5Q4OcZlJBuQ">
-              <ownedParameter xmi:id="_agMDYDwtEey5Q4OcZlJBuQ" name="args">
-                <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-                <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agNRgTwtEey5Q4OcZlJBuQ" value="*"/>
-              </ownedParameter>
-            </ownedOperation>
-          </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_ahMwADwtEey5Q4OcZlJBuQ" name="LibrarySystemApplicationTests" visibility="package">
             <eAnnotations xmi:id="_ahNXEDwtEey5Q4OcZlJBuQ" source="http://ns.yatta.de/umllab">
               <contents xmi:type="ecore:EAnnotation" xmi:id="_ahNXETwtEey5Q4OcZlJBuQ" source="codegen">
@@ -672,7 +662,9 @@
             <ownedAttribute xmi:id="_aluDoTwtEey5Q4OcZlJBuQ" name="bService" visibility="private" isLeaf="true" type="_agY3sDwtEey5Q4OcZlJBuQ" isReadOnly="true" association="_amdqgDwtEey5Q4OcZlJBuQ"/>
             <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_amGeJDwtEey5Q4OcZlJBuQ" name="AddBookController" specification="_ak5kQDwtEey5Q4OcZlJBuQ">
               <ownedParameter xmi:id="_amGeJTwtEey5Q4OcZlJBuQ" name="bookService" type="_agY3sDwtEey5Q4OcZlJBuQ"/>
-              <ownedParameter xmi:id="_amGeJjwtEey5Q4OcZlJBuQ" type="_ag0VgTwtEey5Q4OcZlJBuQ" direction="return"/>
+              <ownedParameter xmi:id="_amGeJjwtEey5Q4OcZlJBuQ" type="_ag0VgTwtEey5Q4OcZlJBuQ" direction="return">
+                <name xsi:nil="true"/>
+              </ownedParameter>
               <language>java</language>
               <body>this.bService = bookService;
 	</body>
@@ -680,6 +672,7 @@
             <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_amHFMDwtEey5Q4OcZlJBuQ" name="findAllBooks" specification="_alXeUDwtEey5Q4OcZlJBuQ">
               <ownedParameter xmi:id="_amHFMTwtEey5Q4OcZlJBuQ" name="model" type="_akpFkTwtEey5Q4OcZlJBuQ"/>
               <ownedParameter xmi:id="_amHFMjwtEey5Q4OcZlJBuQ" direction="return">
+                <name xsi:nil="true"/>
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
               </ownedParameter>
               <language>java</language>
@@ -695,6 +688,7 @@
               </ownedParameter>
               <ownedParameter xmi:id="_amHFNTwtEey5Q4OcZlJBuQ" name="model" type="_akpFkTwtEey5Q4OcZlJBuQ"/>
               <ownedParameter xmi:id="_amHFNjwtEey5Q4OcZlJBuQ" direction="return">
+                <name xsi:nil="true"/>
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
               </ownedParameter>
               <language>java</language>
@@ -709,6 +703,7 @@
               <ownedParameter xmi:id="_amHFODwtEey5Q4OcZlJBuQ" name="isbn" type="_alahoDwtEey5Q4OcZlJBuQ"/>
               <ownedParameter xmi:id="_amHFOTwtEey5Q4OcZlJBuQ" name="model" type="_akpFkTwtEey5Q4OcZlJBuQ"/>
               <ownedParameter xmi:id="_amHFOjwtEey5Q4OcZlJBuQ" direction="return">
+                <name xsi:nil="true"/>
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
               </ownedParameter>
               <language>java</language>
@@ -723,6 +718,7 @@
               <ownedParameter xmi:id="_amHsQjwtEey5Q4OcZlJBuQ" name="result" type="_ak154TwtEey5Q4OcZlJBuQ"/>
               <ownedParameter xmi:id="_amHsQzwtEey5Q4OcZlJBuQ" name="model" type="_akpFkTwtEey5Q4OcZlJBuQ"/>
               <ownedParameter xmi:id="_amHsRDwtEey5Q4OcZlJBuQ" direction="return">
+                <name xsi:nil="true"/>
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
               </ownedParameter>
               <language>java</language>
@@ -739,6 +735,7 @@
               <ownedParameter xmi:id="_amHsRjwtEey5Q4OcZlJBuQ" name="isbn" type="_alahoDwtEey5Q4OcZlJBuQ"/>
               <ownedParameter xmi:id="_amHsRzwtEey5Q4OcZlJBuQ" name="model" type="_akpFkTwtEey5Q4OcZlJBuQ"/>
               <ownedParameter xmi:id="_amHsSDwtEey5Q4OcZlJBuQ" direction="return">
+                <name xsi:nil="true"/>
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
               </ownedParameter>
               <language>java</language>
@@ -754,6 +751,7 @@
               <ownedParameter xmi:id="_amITUzwtEey5Q4OcZlJBuQ" name="result" type="_ak154TwtEey5Q4OcZlJBuQ"/>
               <ownedParameter xmi:id="_amITVDwtEey5Q4OcZlJBuQ" name="model" type="_akpFkTwtEey5Q4OcZlJBuQ"/>
               <ownedParameter xmi:id="_amITVTwtEey5Q4OcZlJBuQ" direction="return">
+                <name xsi:nil="true"/>
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
               </ownedParameter>
               <language>java</language>
@@ -771,6 +769,7 @@
               <ownedParameter xmi:id="_amITVzwtEey5Q4OcZlJBuQ" name="isbn" type="_alahoDwtEey5Q4OcZlJBuQ"/>
               <ownedParameter xmi:id="_amITWDwtEey5Q4OcZlJBuQ" name="model" type="_akpFkTwtEey5Q4OcZlJBuQ"/>
               <ownedParameter xmi:id="_amITWTwtEey5Q4OcZlJBuQ" direction="return">
+                <name xsi:nil="true"/>
                 <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
               </ownedParameter>
               <language>java</language>
@@ -1068,16 +1067,6 @@
   <UMLLabProfile:TargetLanguage xmi:id="_aNvBcDwtEey5Q4OcZlJBuQ" base_Package="_aERjcDwtEey5Q4OcZlJBuQ">
     <languageName>java</languageName>
   </UMLLabProfile:TargetLanguage>
-  <UMLLabProfile:LegacyStyledElement xmi:id="_agIZADwtEey5Q4OcZlJBuQ" base_Element="_agFVsDwtEey5Q4OcZlJBuQ"/>
-  <UMLLabProfile:StyledElement xmi:id="_agNRgDwtEey5Q4OcZlJBuQ" base_Element="_agLcUDwtEey5Q4OcZlJBuQ"/>
-  <UMLLabProfile:Annotations xmi:id="_agOfoDwtEey5Q4OcZlJBuQ" base_Element="_agFVsDwtEey5Q4OcZlJBuQ">
-    <annotations xmi:id="_agOfoTwtEey5Q4OcZlJBuQ" name="SpringBootApplication"/>
-    <annotations xmi:id="_agPGsDwtEey5Q4OcZlJBuQ" name="ComponentScan">
-      <annotationParameters xmi:id="_agPGsTwtEey5Q4OcZlJBuQ" skipName="true">
-        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_amQPIDwtEey5Q4OcZlJBuQ" value="&quot;com.example.controllers&quot;"/>
-      </annotationParameters>
-    </annotations>
-  </UMLLabProfile:Annotations>
   <UMLLabProfile:LegacyStyledElement xmi:id="_agSKADwtEey5Q4OcZlJBuQ" base_Element="_agQ74DwtEey5Q4OcZlJBuQ"/>
   <UMLLabProfile:Annotations xmi:id="_agTYIDwtEey5Q4OcZlJBuQ" base_Element="_agQ74DwtEey5Q4OcZlJBuQ">
     <annotations xmi:id="_agTYITwtEey5Q4OcZlJBuQ" name="Query">
@@ -1092,10 +1081,9 @@
   <UMLLabProfile:StyledElement xmi:id="_age-UTwtEey5Q4OcZlJBuQ" base_Element="_ageXQDwtEey5Q4OcZlJBuQ"/>
   <UMLLabProfile:StyledElement xmi:id="_aggMcDwtEey5Q4OcZlJBuQ" base_Element="_agflYDwtEey5Q4OcZlJBuQ"/>
   <UMLLabProfile:Annotations xmi:id="_aghakDwtEey5Q4OcZlJBuQ" base_Element="_agY3sDwtEey5Q4OcZlJBuQ">
-    <annotations xmi:id="_aghakTwtEey5Q4OcZlJBuQ" name="Service"/>
     <annotations xmi:id="_aghakjwtEey5Q4OcZlJBuQ" name="ComponentScan">
       <annotationParameters xmi:id="_aghakzwtEey5Q4OcZlJBuQ" skipName="true">
-        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_amQPIjwtEey5Q4OcZlJBuQ" value="&quot;com.example.services&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_nSs_sTxFEeyB6tZvSu8w7Q" value="&quot;com.example.services&quot;"/>
       </annotationParameters>
     </annotations>
   </UMLLabProfile:Annotations>
@@ -1124,7 +1112,7 @@
     <annotations xmi:id="_ag7qQDwtEey5Q4OcZlJBuQ" name="RestController"/>
     <annotations xmi:id="_ag7qQTwtEey5Q4OcZlJBuQ" name="ComponentScan">
       <annotationParameters xmi:id="_ag7qQjwtEey5Q4OcZlJBuQ" skipName="true">
-        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_amSEUDwtEey5Q4OcZlJBuQ" value="&quot;com.example.services&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_nSmSADxFEeyB6tZvSu8w7Q" value="&quot;com.example.services&quot;"/>
       </annotationParameters>
     </annotations>
   </UMLLabProfile:Annotations>
@@ -1220,21 +1208,21 @@
   <UMLLabProfile:Annotations xmi:id="_alYFYDwtEey5Q4OcZlJBuQ" base_Element="_alXeUDwtEey5Q4OcZlJBuQ">
     <annotations xmi:id="_alYFYTwtEey5Q4OcZlJBuQ" name="RequestMapping">
       <annotationParameters xmi:id="_alYFYjwtEey5Q4OcZlJBuQ" skipName="true" skipArray="true">
-        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_amSEUTwtEey5Q4OcZlJBuQ" value="&quot;/books&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_nSm5EDxFEeyB6tZvSu8w7Q" value="&quot;/books&quot;"/>
       </annotationParameters>
     </annotations>
   </UMLLabProfile:Annotations>
   <UMLLabProfile:Annotations xmi:id="_alZTgDwtEey5Q4OcZlJBuQ" base_Element="_alYscTwtEey5Q4OcZlJBuQ">
     <annotations xmi:id="_alZTgTwtEey5Q4OcZlJBuQ" name="Param">
       <annotationParameters xmi:id="_alZTgjwtEey5Q4OcZlJBuQ" skipName="true" skipArray="true">
-        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_amSEUzwtEey5Q4OcZlJBuQ" value="&quot;keyword&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_nSngITxFEeyB6tZvSu8w7Q" value="&quot;keyword&quot;"/>
       </annotationParameters>
     </annotations>
   </UMLLabProfile:Annotations>
   <UMLLabProfile:Annotations xmi:id="_alZ6kDwtEey5Q4OcZlJBuQ" base_Element="_alYscDwtEey5Q4OcZlJBuQ">
     <annotations xmi:id="_alZ6kTwtEey5Q4OcZlJBuQ" name="RequestMapping">
       <annotationParameters xmi:id="_alZ6kjwtEey5Q4OcZlJBuQ" skipName="true" skipArray="true">
-        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_amSEUjwtEey5Q4OcZlJBuQ" value="&quot;/searchBook&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_nSngIDxFEeyB6tZvSu8w7Q" value="&quot;/searchBook&quot;"/>
       </annotationParameters>
     </annotations>
   </UMLLabProfile:Annotations>
@@ -1242,63 +1230,63 @@
   <UMLLabProfile:Annotations xmi:id="_albvwjwtEey5Q4OcZlJBuQ" base_Element="_albIsjwtEey5Q4OcZlJBuQ">
     <annotations xmi:id="_alcW0DwtEey5Q4OcZlJBuQ" name="PathVariable">
       <annotationParameters xmi:id="_alcW0TwtEey5Q4OcZlJBuQ" skipName="true" skipArray="true">
-        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_amSEVTwtEey5Q4OcZlJBuQ" value="&quot;isbn&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_nSouQDxFEeyB6tZvSu8w7Q" value="&quot;isbn&quot;"/>
       </annotationParameters>
     </annotations>
   </UMLLabProfile:Annotations>
   <UMLLabProfile:Annotations xmi:id="_alcW0jwtEey5Q4OcZlJBuQ" base_Element="_albIsTwtEey5Q4OcZlJBuQ">
     <annotations xmi:id="_alcW0zwtEey5Q4OcZlJBuQ" name="RequestMapping">
       <annotationParameters xmi:id="_alcW1DwtEey5Q4OcZlJBuQ" skipName="true" skipArray="true">
-        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_amSEVDwtEey5Q4OcZlJBuQ" value="&quot;/book/{isbn}&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_nSoHMDxFEeyB6tZvSu8w7Q" value="&quot;/book/{isbn}&quot;"/>
       </annotationParameters>
     </annotations>
   </UMLLabProfile:Annotations>
   <UMLLabProfile:Annotations xmi:id="_alezETwtEey5Q4OcZlJBuQ" base_Element="_alc94DwtEey5Q4OcZlJBuQ">
     <annotations xmi:id="_alfaIDwtEey5Q4OcZlJBuQ" name="RequestMapping">
       <annotationParameters xmi:id="_alfaITwtEey5Q4OcZlJBuQ" skipName="true" skipArray="true">
-        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_amSEVjwtEey5Q4OcZlJBuQ" value="&quot;/addbook&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_nSpVUDxFEeyB6tZvSu8w7Q" value="&quot;/addbook&quot;"/>
       </annotationParameters>
     </annotations>
   </UMLLabProfile:Annotations>
   <UMLLabProfile:Annotations xmi:id="_algBMjwtEey5Q4OcZlJBuQ" base_Element="_alfaIzwtEey5Q4OcZlJBuQ">
     <annotations xmi:id="_algoQDwtEey5Q4OcZlJBuQ" name="PathVariable">
       <annotationParameters xmi:id="_algoQTwtEey5Q4OcZlJBuQ" skipName="true" skipArray="true">
-        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_amSrYTwtEey5Q4OcZlJBuQ" value="&quot;isbn&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_nSrKgDxFEeyB6tZvSu8w7Q" value="&quot;isbn&quot;"/>
       </annotationParameters>
     </annotations>
   </UMLLabProfile:Annotations>
   <UMLLabProfile:Annotations xmi:id="_algoQjwtEey5Q4OcZlJBuQ" base_Element="_alfaIjwtEey5Q4OcZlJBuQ">
     <annotations xmi:id="_algoQzwtEey5Q4OcZlJBuQ" name="GetMapping">
       <annotationParameters xmi:id="_algoRDwtEey5Q4OcZlJBuQ" skipName="true" skipArray="true">
-        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_amSrYDwtEey5Q4OcZlJBuQ" value="&quot;/update/{isbn}&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_nSqjcDxFEeyB6tZvSu8w7Q" value="&quot;/update/{isbn}&quot;"/>
       </annotationParameters>
     </annotations>
   </UMLLabProfile:Annotations>
   <UMLLabProfile:Annotations xmi:id="_alidcDwtEey5Q4OcZlJBuQ" base_Element="_alhPUTwtEey5Q4OcZlJBuQ">
     <annotations xmi:id="_alidcTwtEey5Q4OcZlJBuQ" name="PathVariable">
       <annotationParameters xmi:id="_alidcjwtEey5Q4OcZlJBuQ" skipName="true" skipArray="true">
-        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_amSrYzwtEey5Q4OcZlJBuQ" value="&quot;isbn&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_nSsYoDxFEeyB6tZvSu8w7Q" value="&quot;isbn&quot;"/>
       </annotationParameters>
     </annotations>
   </UMLLabProfile:Annotations>
   <UMLLabProfile:Annotations xmi:id="_aljEgDwtEey5Q4OcZlJBuQ" base_Element="_alhPUDwtEey5Q4OcZlJBuQ">
     <annotations xmi:id="_aljEgTwtEey5Q4OcZlJBuQ" name="RequestMapping">
       <annotationParameters xmi:id="_aljEgjwtEey5Q4OcZlJBuQ" skipName="true" skipArray="true">
-        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_amSrYjwtEey5Q4OcZlJBuQ" value="&quot;/update-book/{isbn}&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_nSrxkDxFEeyB6tZvSu8w7Q" value="&quot;/update-book/{isbn}&quot;"/>
       </annotationParameters>
     </annotations>
   </UMLLabProfile:Annotations>
   <UMLLabProfile:Annotations xmi:id="_alkSoDwtEey5Q4OcZlJBuQ" base_Element="_aljrkDwtEey5Q4OcZlJBuQ">
     <annotations xmi:id="_alkSoTwtEey5Q4OcZlJBuQ" name="PathVariable">
       <annotationParameters xmi:id="_alkSojwtEey5Q4OcZlJBuQ" skipName="true" skipArray="true">
-        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_amSrZTwtEey5Q4OcZlJBuQ" value="&quot;isbn&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_nSs_sDxFEeyB6tZvSu8w7Q" value="&quot;isbn&quot;"/>
       </annotationParameters>
     </annotations>
   </UMLLabProfile:Annotations>
   <UMLLabProfile:Annotations xmi:id="_alkSozwtEey5Q4OcZlJBuQ" base_Element="_aljEgzwtEey5Q4OcZlJBuQ">
     <annotations xmi:id="_alkSpDwtEey5Q4OcZlJBuQ" name="RequestMapping">
       <annotationParameters xmi:id="_alk5sDwtEey5Q4OcZlJBuQ" skipName="true" skipArray="true">
-        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_amSrZDwtEey5Q4OcZlJBuQ" value="&quot;/remove-book/{isbn}&quot;"/>
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_nSsYoTxFEeyB6tZvSu8w7Q" value="&quot;/remove-book/{isbn}&quot;"/>
       </annotationParameters>
     </annotations>
   </UMLLabProfile:Annotations>

@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_aGwPsDwtEey5Q4OcZlJBuQ">
   <modelElement href="LibrarySystem.uml#_aepLQDwtEey5Q4OcZlJBuQ"/>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bDDf4DwtEey5Q4OcZlJBuQ" sourceAnchor="20.0,0.0" targetAnchor="351.0,88.0" target="_bEfDQDwtEey5Q4OcZlJBuQ" source="_bDEG-DwtEey5Q4OcZlJBuQ">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bDDf4DwtEey5Q4OcZlJBuQ" sourceAnchor="328.0,0.0" targetAnchor="351.0,88.0" target="_bEfDQDwtEey5Q4OcZlJBuQ" source="_bDEG-DwtEey5Q4OcZlJBuQ">
     <modelElement href="LibrarySystem.uml#_amdqgDwtEey5Q4OcZlJBuQ"/>
-    <bendpoints xmi:id="_bQs6UDwtEey5Q4OcZlJBuQ" sourceY="-798" targetX="120"/>
+    <bendpoints xmi:id="_SRk50DxGEeyB6tZvSu8w7Q" sourceY="-160" targetX="313"/>
     <stereotypes xmi:id="_bDEG8DwtEey5Q4OcZlJBuQ" name="Reference">
       <modelElement href="LibrarySystem.uml#_ameRkDwtEey5Q4OcZlJBuQ"/>
     </stereotypes>
     <nameVisual xmi:id="_bDEG8TwtEey5Q4OcZlJBuQ" text="">
-      <visualProperties xmi:id="_bQv9oDwtEey5Q4OcZlJBuQ" position="-30.94613873197411,769.1009194979679"/>
+      <visualProperties xmi:id="_bQv9oDwtEey5Q4OcZlJBuQ" position="-177.49999999999997,-21.50000000000003"/>
     </nameVisual>
     <sourceRole xmi:id="_bDEG8jwtEey5Q4OcZlJBuQ" aggregationKind="NONE" name="">
       <modelElement href="LibrarySystem.uml#_amdqgTwtEey5Q4OcZlJBuQ"/>
-      <visualProperties xmi:id="_bQuvgDwtEey5Q4OcZlJBuQ" position="-19.42572961772234,-71.51811036933219"/>
+      <visualProperties xmi:id="_bQuvgDwtEey5Q4OcZlJBuQ" position="-18.000000000000007,-77.375"/>
       <visibility xmi:id="_bDEG8zwtEey5Q4OcZlJBuQ" label="+"/>
       <cardinality xmi:id="_bDEG9DwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_bDEG9TwtEey5Q4OcZlJBuQ" aggregationKind="NONE" name="bService" navigable="true">
       <modelElement href="LibrarySystem.uml#_aluDoTwtEey5Q4OcZlJBuQ"/>
-      <visualProperties xmi:id="_bQv9oTwtEey5Q4OcZlJBuQ" position="73.06066430610981,790.5152951861045"/>
+      <visualProperties xmi:id="_bQv9oTwtEey5Q4OcZlJBuQ" position="48.60000000000002,1.4999999999999716"/>
       <visibility xmi:id="_bDEG9jwtEey5Q4OcZlJBuQ" label="-"/>
       <cardinality xmi:id="_bDEG9zwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bDY3EDwtEey5Q4OcZlJBuQ" sourceAnchor="136.0,0.0" targetAnchor="299.0,175.0" target="_bEfDQDwtEey5Q4OcZlJBuQ" source="_bDchcDwtEey5Q4OcZlJBuQ">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bDY3EDwtEey5Q4OcZlJBuQ" sourceAnchor="204.0,0.0" targetAnchor="176.0,175.0" target="_bEfDQDwtEey5Q4OcZlJBuQ" source="_bDchcDwtEey5Q4OcZlJBuQ">
     <modelElement href="LibrarySystem.uml#_amQ2MDwtEey5Q4OcZlJBuQ"/>
     <nameVisual xmi:id="_bDasQDwtEey5Q4OcZlJBuQ" text="">
-      <visualProperties xmi:id="_bQxy0DwtEey5Q4OcZlJBuQ" position="-9.653846153846132,-41.769230769230774"/>
+      <visualProperties xmi:id="_bQxy0DwtEey5Q4OcZlJBuQ" position="1.0,-9.0"/>
     </nameVisual>
     <sourceRole xmi:id="_bDbTUDwtEey5Q4OcZlJBuQ" aggregationKind="NONE" name="allBooks" navigable="true">
       <modelElement href="LibrarySystem.uml#_agas4TwtEey5Q4OcZlJBuQ"/>
-      <visualProperties xmi:id="_bQxLwDwtEey5Q4OcZlJBuQ" position="-46.03846153846155,-82.69230769230768"/>
+      <visualProperties xmi:id="_bQxLwDwtEey5Q4OcZlJBuQ" position="-77.0,-83.0"/>
       <stereotypes xmi:id="_bDb6YjwtEey5Q4OcZlJBuQ" name="StyledElement">
         <modelElement href="LibrarySystem.uml#_agb7ADwtEey5Q4OcZlJBuQ"/>
       </stereotypes>
@@ -39,39 +39,186 @@
     </sourceRole>
     <targetRole xmi:id="_bDbTUTwtEey5Q4OcZlJBuQ" aggregationKind="NONE" name="">
       <modelElement href="LibrarySystem.uml#_amRdQDwtEey5Q4OcZlJBuQ"/>
-      <visualProperties xmi:id="_bQxy0TwtEey5Q4OcZlJBuQ" position="-17.269230769230774,-29.846153846153868"/>
+      <visualProperties xmi:id="_bQxy0TwtEey5Q4OcZlJBuQ" position="1.0,33.0"/>
       <visibility xmi:id="_bDb6ZDwtEey5Q4OcZlJBuQ" label="+"/>
       <cardinality xmi:id="_bDb6YzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bD8QsDwtEey5Q4OcZlJBuQ" sourceAnchor="15.0,0.0" targetAnchor="236.0,76.0" target="_bD6bgDwtEey5Q4OcZlJBuQ" source="_bEBwQDwtEey5Q4OcZlJBuQ">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_bD8QsDwtEey5Q4OcZlJBuQ" sourceAnchor="180.0,0.0" targetAnchor="176.0,76.0" target="_bD6bgDwtEey5Q4OcZlJBuQ" source="_bEBwQDwtEey5Q4OcZlJBuQ">
     <modelElement href="LibrarySystem.uml#_ameRkTwtEey5Q4OcZlJBuQ"/>
     <stereotypes xmi:id="_bD9e0zwtEey5Q4OcZlJBuQ" name="Reference">
       <modelElement href="LibrarySystem.uml#_amffsDwtEey5Q4OcZlJBuQ"/>
     </stereotypes>
     <nameVisual xmi:id="_bD9e0DwtEey5Q4OcZlJBuQ" text="">
-      <visualProperties xmi:id="_bQyZ4TwtEey5Q4OcZlJBuQ" position="-13.159409048919315,-9.919791388867566"/>
+      <visualProperties xmi:id="_bQyZ4TwtEey5Q4OcZlJBuQ" position="2.0,-17.0"/>
     </nameVisual>
     <sourceRole xmi:id="_bD9e0TwtEey5Q4OcZlJBuQ" aggregationKind="NONE" name="">
       <modelElement href="LibrarySystem.uml#_ameRkjwtEey5Q4OcZlJBuQ"/>
-      <visualProperties xmi:id="_bQyZ4DwtEey5Q4OcZlJBuQ" position="3.266692284521241,-71.84759711623587"/>
+      <visualProperties xmi:id="_bQyZ4DwtEey5Q4OcZlJBuQ" position="2.0,-77.0"/>
       <visibility xmi:id="_bD-s8TwtEey5Q4OcZlJBuQ" label="+"/>
       <cardinality xmi:id="_bD-s8DwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
     </sourceRole>
     <targetRole xmi:id="_bD9e0jwtEey5Q4OcZlJBuQ" aggregationKind="NONE" name="bookRepo" navigable="true">
       <modelElement href="LibrarySystem.uml#_al1_cDwtEey5Q4OcZlJBuQ"/>
-      <visualProperties xmi:id="_bQzA8DwtEey5Q4OcZlJBuQ" position="-31.78947331110885,12.358512611454103"/>
+      <visualProperties xmi:id="_bQzA8DwtEey5Q4OcZlJBuQ" position="-88.0,27.0"/>
       <visibility xmi:id="_bD-s8zwtEey5Q4OcZlJBuQ" label="-"/>
       <cardinality xmi:id="_bD-s8jwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
     </targetRole>
   </edges>
-  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bD83wDwtEey5Q4OcZlJBuQ" sourceAnchor="220.0,0.0" targetAnchor="0.0,88.0" dashed="true" superClass="_bEfDQDwtEey5Q4OcZlJBuQ" subClass="_bEBwQDwtEey5Q4OcZlJBuQ">
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:GeneralizationVisual" xmi:id="_bD83wDwtEey5Q4OcZlJBuQ" sourceAnchor="372.0,0.0" targetAnchor="0.0,99.0" dashed="true" superClass="_bEfDQDwtEey5Q4OcZlJBuQ" subClass="_bEBwQDwtEey5Q4OcZlJBuQ">
     <modelElement href="LibrarySystem.uml#_alLREDwtEey5Q4OcZlJBuQ"/>
-    <bendpoints xmi:id="_bQuIcDwtEey5Q4OcZlJBuQ" sourceY="-142" targetX="-550"/>
+    <bendpoints xmi:id="_SRkSwDxGEeyB6tZvSu8w7Q" sourceY="-218" targetX="-188"/>
   </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_bD6bgDwtEey5Q4OcZlJBuQ" name="BookRepo" associationsIn="_bD8QsDwtEey5Q4OcZlJBuQ">
+    <modelElement href="LibrarySystem.uml#_agPGsjwtEey5Q4OcZlJBuQ"/>
+    <visualProperties xmi:id="_bD6bgTwtEey5Q4OcZlJBuQ" position="-1244.0,-206.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bD6bgjwtEey5Q4OcZlJBuQ" label="+"/>
+    <operations xmi:id="_bD6bgzwtEey5Q4OcZlJBuQ" name="searchLibrary">
+      <modelElement href="LibrarySystem.uml#_agQ74DwtEey5Q4OcZlJBuQ"/>
+      <stereotypes xmi:id="_bD6bhDwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
+        <modelElement href="LibrarySystem.uml#_agSKADwtEey5Q4OcZlJBuQ"/>
+      </stereotypes>
+      <stereotypes xmi:id="_bD6bhTwtEey5Q4OcZlJBuQ" name="Annotations">
+        <modelElement href="LibrarySystem.uml#_agTYIDwtEey5Q4OcZlJBuQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bD6bhjwtEey5Q4OcZlJBuQ" label="+"/>
+      <cardinality xmi:id="_bD6bhzwtEey5Q4OcZlJBuQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bD6biDwtEey5Q4OcZlJBuQ">
+        <modelElement href="LibrarySystem.uml#_agRi8DwtEey5Q4OcZlJBuQ"/>
+        <type xmi:id="_bD6biTwtEey5Q4OcZlJBuQ" name="Book">
+          <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bD6bijwtEey5Q4OcZlJBuQ" name="title">
+        <modelElement href="LibrarySystem.uml#_agQ74TwtEey5Q4OcZlJBuQ"/>
+        <cardinality xmi:id="_bD6bizwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bD6bjDwtEey5Q4OcZlJBuQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-IRKkDw3EeycacHjxt9dvQ" name="NewClass1">
+    <modelElement href="LibrarySystem.uml#_-IOHQDw3EeycacHjxt9dvQ"/>
+    <visualProperties xmi:id="_-IRKkTw3EeycacHjxt9dvQ" position="-950.0,254.0" size="-1.0,-1.0" visible="false"/>
+    <visibility xmi:id="_-IRKkjw3EeycacHjxt9dvQ" label="+"/>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_bEfDQDwtEey5Q4OcZlJBuQ" name="BookRestService" associationsIn="_bDY3EDwtEey5Q4OcZlJBuQ _bDDf4DwtEey5Q4OcZlJBuQ" subclassedBy="_bD83wDwtEey5Q4OcZlJBuQ">
+    <modelElement href="LibrarySystem.uml#_agY3sDwtEey5Q4OcZlJBuQ"/>
+    <visualProperties xmi:id="_bEfDQTwtEey5Q4OcZlJBuQ" position="-688.0,-291.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_bEfDQjwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
+      <modelElement href="LibrarySystem.uml#_agas4DwtEey5Q4OcZlJBuQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_bEfDQzwtEey5Q4OcZlJBuQ" name="Annotations">
+      <modelElement href="LibrarySystem.uml#_aghakDwtEey5Q4OcZlJBuQ"/>
+    </stereotypes>
+    <visibility xmi:id="_bEfDRDwtEey5Q4OcZlJBuQ" label="+"/>
+    <attributes xmi:id="_bEfDRTwtEey5Q4OcZlJBuQ" name="allBooks">
+      <modelElement href="LibrarySystem.uml#_agas4TwtEey5Q4OcZlJBuQ"/>
+      <stereotypes xmi:id="_kula8Dw2EeycacHjxt9dvQ" name="StyledElement"/>
+      <stereotypes xmi:id="_kun3MDw2EeycacHjxt9dvQ" name="StyledElement"/>
+      <stereotypes xmi:id="_kutWwDw2EeycacHjxt9dvQ" name="StyledElement"/>
+      <stereotypes xmi:id="_9x4D0Dw3EeycacHjxt9dvQ" name="StyledElement"/>
+      <stereotypes xmi:id="_fN-7UDxFEeyB6tZvSu8w7Q" name="StyledElement"/>
+      <stereotypes xmi:id="_fOFB8DxFEeyB6tZvSu8w7Q" name="StyledElement"/>
+      <stereotypes xmi:id="_fObAMDxFEeyB6tZvSu8w7Q" name="StyledElement"/>
+      <visibility xmi:id="_bEfDRjwtEey5Q4OcZlJBuQ" label="+"/>
+      <cardinality xmi:id="_bEfDRzwtEey5Q4OcZlJBuQ" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_bEfDSDwtEey5Q4OcZlJBuQ" name="Book">
+        <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bEfDSTwtEey5Q4OcZlJBuQ" name="searchBooks">
+      <modelElement href="LibrarySystem.uml#_agciEDwtEey5Q4OcZlJBuQ"/>
+      <stereotypes xmi:id="_bEfDSjwtEey5Q4OcZlJBuQ" name="StyledElement">
+        <modelElement href="LibrarySystem.uml#_agdwMDwtEey5Q4OcZlJBuQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bEfDSzwtEey5Q4OcZlJBuQ" label="+"/>
+      <cardinality xmi:id="_bEfDTDwtEey5Q4OcZlJBuQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bEfDTTwtEey5Q4OcZlJBuQ">
+        <modelElement href="LibrarySystem.uml#_agdJIDwtEey5Q4OcZlJBuQ"/>
+        <type xmi:id="_bEfDTjwtEey5Q4OcZlJBuQ" name="Book">
+          <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bEfDTzwtEey5Q4OcZlJBuQ" name="keyword">
+        <modelElement href="LibrarySystem.uml#_agciETwtEey5Q4OcZlJBuQ"/>
+        <cardinality xmi:id="_bEfDUDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bEfDUTwtEey5Q4OcZlJBuQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bEfDUjwtEey5Q4OcZlJBuQ" name="deleteBook">
+      <modelElement href="LibrarySystem.uml#_ageXQDwtEey5Q4OcZlJBuQ"/>
+      <stereotypes xmi:id="_bEfDUzwtEey5Q4OcZlJBuQ" name="StyledElement">
+        <modelElement href="LibrarySystem.uml#_age-UTwtEey5Q4OcZlJBuQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bEfDVDwtEey5Q4OcZlJBuQ" label="+"/>
+      <cardinality xmi:id="_bEfDVTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bEfDVjwtEey5Q4OcZlJBuQ" name="isbn">
+        <modelElement href="LibrarySystem.uml#_age-UDwtEey5Q4OcZlJBuQ"/>
+        <cardinality xmi:id="_bEfDVzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bEfDWDwtEey5Q4OcZlJBuQ" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bEfDWTwtEey5Q4OcZlJBuQ" name="getByISBN">
+      <modelElement href="LibrarySystem.uml#_agflYDwtEey5Q4OcZlJBuQ"/>
+      <stereotypes xmi:id="_bEfDWjwtEey5Q4OcZlJBuQ" name="StyledElement">
+        <modelElement href="LibrarySystem.uml#_aggMcDwtEey5Q4OcZlJBuQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bEfDWzwtEey5Q4OcZlJBuQ" label="+"/>
+      <cardinality xmi:id="_bEfDXDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bEfDXTwtEey5Q4OcZlJBuQ">
+        <modelElement href="LibrarySystem.uml#_akmpUzwtEey5Q4OcZlJBuQ"/>
+        <type xmi:id="_bEfDXjwtEey5Q4OcZlJBuQ" name="Book">
+          <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bEfDXzwtEey5Q4OcZlJBuQ" name="id">
+        <modelElement href="LibrarySystem.uml#_agflYTwtEey5Q4OcZlJBuQ"/>
+        <cardinality xmi:id="_bEfDYDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bEfDYTwtEey5Q4OcZlJBuQ" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bEfDYjwtEey5Q4OcZlJBuQ" name="addBook">
+      <modelElement href="LibrarySystem.uml#_akmCQDwtEey5Q4OcZlJBuQ"/>
+      <stereotypes xmi:id="_bEfDYzwtEey5Q4OcZlJBuQ" name="StyledElement">
+        <modelElement href="LibrarySystem.uml#_akmCQjwtEey5Q4OcZlJBuQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bEfDZDwtEey5Q4OcZlJBuQ" label="+"/>
+      <cardinality xmi:id="_bEfDZTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bEfDZjwtEey5Q4OcZlJBuQ" name="book">
+        <modelElement href="LibrarySystem.uml#_akmCQTwtEey5Q4OcZlJBuQ"/>
+        <cardinality xmi:id="_bEfDZzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bEfDaDwtEey5Q4OcZlJBuQ" name="Book">
+          <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bEfDaTwtEey5Q4OcZlJBuQ" name="updateBook">
+      <modelElement href="LibrarySystem.uml#_akmpUDwtEey5Q4OcZlJBuQ"/>
+      <stereotypes xmi:id="_bEfDajwtEey5Q4OcZlJBuQ" name="StyledElement">
+        <modelElement href="LibrarySystem.uml#_akmpUjwtEey5Q4OcZlJBuQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bEfDazwtEey5Q4OcZlJBuQ" label="+"/>
+      <cardinality xmi:id="_bEfDbDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bEfDbTwtEey5Q4OcZlJBuQ" name="book">
+        <modelElement href="LibrarySystem.uml#_akmpUTwtEey5Q4OcZlJBuQ"/>
+        <cardinality xmi:id="_bEfDbjwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bEfDbzwtEey5Q4OcZlJBuQ" name="Book">
+          <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bB1-8DwtEey5Q4OcZlJBuQ" name="MavenWrapperDownloader">
     <modelElement href="LibrarySystem.uml#_ahGpYDwtEey5Q4OcZlJBuQ"/>
-    <visualProperties xmi:id="_bB2mADwtEey5Q4OcZlJBuQ" position="55.0,178.0" size="-1.0,-1.0"/>
+    <visualProperties xmi:id="_bB2mADwtEey5Q4OcZlJBuQ" position="-36.0,-128.0" size="-1.0,-1.0" visible="false"/>
     <visibility xmi:id="_bB2mATwtEey5Q4OcZlJBuQ" label="+"/>
     <attributes xmi:id="_bB2mAjwtEey5Q4OcZlJBuQ" defaultValue="&quot;0.5.6&quot;" name="WRAPPER_VERSION" staticAttribute="true">
       <modelElement href="LibrarySystem.uml#_alvRwDwtEey5Q4OcZlJBuQ"/>
@@ -148,43 +295,9 @@
       </parameters>
     </operations>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bCzoQDwtEey5Q4OcZlJBuQ" name="Exception">
-    <modelElement href="LibrarySystem.uml#_almu4DwtEey5Q4OcZlJBuQ"/>
-    <visualProperties xmi:id="_bCzoQTwtEey5Q4OcZlJBuQ" position="305.0,429.0" size="-1.0,-1.0"/>
-    <stereotypes xmi:id="_bCzoQjwtEey5Q4OcZlJBuQ" name="Reference">
-      <modelElement href="LibrarySystem.uml#_alnV8DwtEey5Q4OcZlJBuQ"/>
-    </stereotypes>
-    <visibility xmi:id="_bCzoQzwtEey5Q4OcZlJBuQ" label="+"/>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bC3SoDwtEey5Q4OcZlJBuQ" name="LibrarySystemApplication">
-    <modelElement href="LibrarySystem.uml#_agFVsDwtEey5Q4OcZlJBuQ"/>
-    <visualProperties xmi:id="_bC3SoTwtEey5Q4OcZlJBuQ" position="14.0,437.0" size="-1.0,-1.0"/>
-    <stereotypes xmi:id="_bC3SojwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
-      <modelElement href="LibrarySystem.uml#_agIZADwtEey5Q4OcZlJBuQ"/>
-    </stereotypes>
-    <stereotypes xmi:id="_bC3SozwtEey5Q4OcZlJBuQ" name="Annotations">
-      <modelElement href="LibrarySystem.uml#_agOfoDwtEey5Q4OcZlJBuQ"/>
-    </stereotypes>
-    <visibility xmi:id="_bC3SpDwtEey5Q4OcZlJBuQ" label="+"/>
-    <operations xmi:id="_bC3SpTwtEey5Q4OcZlJBuQ" name="main" staticOperation="true">
-      <modelElement href="LibrarySystem.uml#_agLcUDwtEey5Q4OcZlJBuQ"/>
-      <stereotypes xmi:id="_bC3SpjwtEey5Q4OcZlJBuQ" name="StyledElement">
-        <modelElement href="LibrarySystem.uml#_agNRgDwtEey5Q4OcZlJBuQ"/>
-      </stereotypes>
-      <visibility xmi:id="_bC3SpzwtEey5Q4OcZlJBuQ" label="+"/>
-      <cardinality xmi:id="_bC3SqDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <parameters xmi:id="_bC3SqTwtEey5Q4OcZlJBuQ" name="args">
-        <modelElement href="LibrarySystem.uml#_agMDYDwtEey5Q4OcZlJBuQ"/>
-        <cardinality xmi:id="_bC3SqjwtEey5Q4OcZlJBuQ" label="1..*" max="-1" min="1"/>
-        <type xmi:id="_bC3SqzwtEey5Q4OcZlJBuQ" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-    </operations>
-  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bDEG-DwtEey5Q4OcZlJBuQ" name="AddBookController" associationsOut="_bDDf4DwtEey5Q4OcZlJBuQ">
     <modelElement href="LibrarySystem.uml#_ag0VgTwtEey5Q4OcZlJBuQ"/>
-    <visualProperties xmi:id="_bDEG-TwtEey5Q4OcZlJBuQ" position="-21.0,597.0" size="-1.0,-1.0"/>
+    <visualProperties xmi:id="_bDEG-TwtEey5Q4OcZlJBuQ" position="-352.0,-43.0" size="-1.0,-1.0"/>
     <stereotypes xmi:id="_bDEG-jwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
       <modelElement href="LibrarySystem.uml#_ag1joDwtEey5Q4OcZlJBuQ"/>
     </stereotypes>
@@ -433,9 +546,68 @@
       </parameters>
     </operations>
   </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bEcnADwtEey5Q4OcZlJBuQ" name="BookNotFoundException">
+    <modelElement href="LibrarySystem.uml#_agVNUDwtEey5Q4OcZlJBuQ"/>
+    <visualProperties xmi:id="_bEcnATwtEey5Q4OcZlJBuQ" position="-1215.0,516.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bEcnAjwtEey5Q4OcZlJBuQ" label="+"/>
+    <attributes xmi:id="_bEcnAzwtEey5Q4OcZlJBuQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
+      <modelElement href="LibrarySystem.uml#_alsOcDwtEey5Q4OcZlJBuQ"/>
+      <visibility xmi:id="_bEcnBDwtEey5Q4OcZlJBuQ" label="-"/>
+      <cardinality xmi:id="_bEcnBTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bEcnBjwtEey5Q4OcZlJBuQ" name="long">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bEcnBzwtEey5Q4OcZlJBuQ" name="BookNotFoundException">
+      <modelElement href="LibrarySystem.uml#_agXCgDwtEey5Q4OcZlJBuQ"/>
+      <keywords xmi:id="_bEcnCDwtEey5Q4OcZlJBuQ" keyword="create"/>
+      <visibility xmi:id="_bEcnCTwtEey5Q4OcZlJBuQ" label="+"/>
+      <cardinality xmi:id="_bEcnCjwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bEcnCzwtEey5Q4OcZlJBuQ">
+        <modelElement href="LibrarySystem.uml#_agXpkTwtEey5Q4OcZlJBuQ"/>
+        <type xmi:id="_bEcnDDwtEey5Q4OcZlJBuQ" name="BookNotFoundException">
+          <modelElement href="LibrarySystem.uml#_agVNUDwtEey5Q4OcZlJBuQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bEcnDTwtEey5Q4OcZlJBuQ" name="errorMessage">
+        <modelElement href="LibrarySystem.uml#_agXCgTwtEey5Q4OcZlJBuQ"/>
+        <cardinality xmi:id="_bEcnDjwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bEcnDzwtEey5Q4OcZlJBuQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bEm_EDwtEey5Q4OcZlJBuQ" name="LibrarySystemApplicationTests">
+    <modelElement href="LibrarySystem.uml#_ahMwADwtEey5Q4OcZlJBuQ"/>
+    <visualProperties xmi:id="_bEm_ETwtEey5Q4OcZlJBuQ" position="-1199.0,292.0" size="-1.0,-1.0" visible="false"/>
+    <stereotypes xmi:id="_bEm_EjwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
+      <modelElement href="LibrarySystem.uml#_ahN-IDwtEey5Q4OcZlJBuQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_bEm_EzwtEey5Q4OcZlJBuQ" name="Annotations">
+      <modelElement href="LibrarySystem.uml#_ahOlMTwtEey5Q4OcZlJBuQ"/>
+    </stereotypes>
+    <visibility xmi:id="_bEm_FDwtEey5Q4OcZlJBuQ" label="~"/>
+    <operations xmi:id="_bEm_FTwtEey5Q4OcZlJBuQ" name="contextLoads">
+      <modelElement href="LibrarySystem.uml#_ahN-ITwtEey5Q4OcZlJBuQ"/>
+      <stereotypes xmi:id="_bEm_FjwtEey5Q4OcZlJBuQ" name="Annotations">
+        <modelElement href="LibrarySystem.uml#_ahN-IjwtEey5Q4OcZlJBuQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bEm_FzwtEey5Q4OcZlJBuQ" label="~"/>
+      <cardinality xmi:id="_bEm_GDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bCzoQDwtEey5Q4OcZlJBuQ" name="Exception">
+    <modelElement href="LibrarySystem.uml#_almu4DwtEey5Q4OcZlJBuQ"/>
+    <visualProperties xmi:id="_bCzoQTwtEey5Q4OcZlJBuQ" position="325.0,413.0" size="-1.0,-1.0" visible="false"/>
+    <stereotypes xmi:id="_bCzoQjwtEey5Q4OcZlJBuQ" name="Reference">
+      <modelElement href="LibrarySystem.uml#_alnV8DwtEey5Q4OcZlJBuQ"/>
+    </stereotypes>
+    <visibility xmi:id="_bCzoQzwtEey5Q4OcZlJBuQ" label="+"/>
+  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bDVMsDwtEey5Q4OcZlJBuQ" name="IndexController">
     <modelElement href="LibrarySystem.uml#_agxSMDwtEey5Q4OcZlJBuQ"/>
-    <visualProperties xmi:id="_bDVMsTwtEey5Q4OcZlJBuQ" position="442.0,424.0" size="-1.0,-1.0"/>
+    <visualProperties xmi:id="_bDVMsTwtEey5Q4OcZlJBuQ" position="442.0,424.0" size="-1.0,-1.0" visible="false"/>
     <stereotypes xmi:id="_bDVMsjwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
       <modelElement href="LibrarySystem.uml#_agygUDwtEey5Q4OcZlJBuQ"/>
     </stereotypes>
@@ -458,247 +630,151 @@
       </outParameters>
     </operations>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bDchcDwtEey5Q4OcZlJBuQ" name="Book" associationsOut="_bDY3EDwtEey5Q4OcZlJBuQ">
-    <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
-    <visualProperties xmi:id="_bDchcTwtEey5Q4OcZlJBuQ" position="-309.0,-19.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_bDchcjwtEey5Q4OcZlJBuQ" label="+"/>
-    <attributes xmi:id="_bDchczwtEey5Q4OcZlJBuQ" name="title">
-      <modelElement href="LibrarySystem.uml#_alwf4zwtEey5Q4OcZlJBuQ"/>
-      <stereotypes xmi:id="_bDchdDwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
-        <modelElement href="LibrarySystem.uml#_alxG8DwtEey5Q4OcZlJBuQ"/>
-      </stereotypes>
-      <visibility xmi:id="_bDchdTwtEey5Q4OcZlJBuQ" label="~"/>
-      <cardinality xmi:id="_bDchdjwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <type xmi:id="_bDchdzwtEey5Q4OcZlJBuQ" name="String">
-        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bEBwQDwtEey5Q4OcZlJBuQ" name="BookFunctions" associationsOut="_bD8QsDwtEey5Q4OcZlJBuQ" generalizations="_bD83wDwtEey5Q4OcZlJBuQ">
+    <modelElement href="LibrarySystem.uml#_ahd1wDwtEey5Q4OcZlJBuQ"/>
+    <visualProperties xmi:id="_bEBwQTwtEey5Q4OcZlJBuQ" position="-1248.0,27.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_bEBwQjwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
+      <modelElement href="LibrarySystem.uml#_ahec0DwtEey5Q4OcZlJBuQ"/>
+    </stereotypes>
+    <stereotypes xmi:id="_bEBwQzwtEey5Q4OcZlJBuQ" name="Annotations">
+      <modelElement href="LibrarySystem.uml#_ahlKgDwtEey5Q4OcZlJBuQ"/>
+    </stereotypes>
+    <visibility xmi:id="_bEBwRDwtEey5Q4OcZlJBuQ" label="+"/>
+    <attributes xmi:id="_bEBwRTwtEey5Q4OcZlJBuQ" name="bookRepo">
+      <modelElement href="LibrarySystem.uml#_al1_cDwtEey5Q4OcZlJBuQ"/>
+      <visibility xmi:id="_bEBwRjwtEey5Q4OcZlJBuQ" label="-"/>
+      <cardinality xmi:id="_bEBwRzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bEBwSDwtEey5Q4OcZlJBuQ" name="BookRepo">
+        <modelElement href="LibrarySystem.uml#_agPGsjwtEey5Q4OcZlJBuQ"/>
       </type>
     </attributes>
-    <attributes xmi:id="_bDcheDwtEey5Q4OcZlJBuQ" name="author">
-      <modelElement href="LibrarySystem.uml#_alxG8TwtEey5Q4OcZlJBuQ"/>
-      <stereotypes xmi:id="_bDcheTwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
-        <modelElement href="LibrarySystem.uml#_alxuADwtEey5Q4OcZlJBuQ"/>
+    <operations xmi:id="_bEBwSTwtEey5Q4OcZlJBuQ" name="getAllBooks">
+      <modelElement href="LibrarySystem.uml#_ahfD4DwtEey5Q4OcZlJBuQ"/>
+      <stereotypes xmi:id="_bEBwSjwtEey5Q4OcZlJBuQ" name="Annotations">
+        <modelElement href="LibrarySystem.uml#_ahgSADwtEey5Q4OcZlJBuQ"/>
       </stereotypes>
-      <visibility xmi:id="_bDchejwtEey5Q4OcZlJBuQ" label="~"/>
-      <cardinality xmi:id="_bDchezwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <type xmi:id="_bDchfDwtEey5Q4OcZlJBuQ" name="String">
-        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_bDchfTwtEey5Q4OcZlJBuQ" name="numBooks">
-      <modelElement href="LibrarySystem.uml#_alxuATwtEey5Q4OcZlJBuQ"/>
-      <stereotypes xmi:id="_bDchfjwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
-        <modelElement href="LibrarySystem.uml#_alxuAjwtEey5Q4OcZlJBuQ"/>
-      </stereotypes>
-      <visibility xmi:id="_bDchfzwtEey5Q4OcZlJBuQ" label="~"/>
-      <cardinality xmi:id="_bDchgDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <type xmi:id="_bDchgTwtEey5Q4OcZlJBuQ" name="int">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_bDchgjwtEey5Q4OcZlJBuQ" name="isbn">
-      <modelElement href="LibrarySystem.uml#_alyVEDwtEey5Q4OcZlJBuQ"/>
-      <stereotypes xmi:id="_bDchgzwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
-        <modelElement href="LibrarySystem.uml#_alyVETwtEey5Q4OcZlJBuQ"/>
-      </stereotypes>
-      <visibility xmi:id="_bDchhDwtEey5Q4OcZlJBuQ" label="~"/>
-      <cardinality xmi:id="_bDchhTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <type xmi:id="_bDchhjwtEey5Q4OcZlJBuQ" name="long">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
-      </type>
-    </attributes>
-    <operations xmi:id="_bDchhzwtEey5Q4OcZlJBuQ" name="Book">
-      <modelElement href="LibrarySystem.uml#_ahQaYDwtEey5Q4OcZlJBuQ"/>
-      <keywords xmi:id="_bDchiDwtEey5Q4OcZlJBuQ" keyword="create"/>
-      <visibility xmi:id="_bDchiTwtEey5Q4OcZlJBuQ" label="~"/>
-      <cardinality xmi:id="_bDchijwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_bDchizwtEey5Q4OcZlJBuQ">
-        <modelElement href="LibrarySystem.uml#_ahQaYzwtEey5Q4OcZlJBuQ"/>
-        <type xmi:id="_bDchjDwtEey5Q4OcZlJBuQ" name="Book">
+      <visibility xmi:id="_bEBwSzwtEey5Q4OcZlJBuQ" label="+"/>
+      <cardinality xmi:id="_bEBwTDwtEey5Q4OcZlJBuQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bEBwTTwtEey5Q4OcZlJBuQ">
+        <modelElement href="LibrarySystem.uml#_ahfq8DwtEey5Q4OcZlJBuQ"/>
+        <type xmi:id="_bEBwTjwtEey5Q4OcZlJBuQ" name="Book">
           <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
         </type>
       </outParameters>
     </operations>
-    <operations xmi:id="_bDchjTwtEey5Q4OcZlJBuQ" name="getTitle">
-      <modelElement href="LibrarySystem.uml#_ahRBcDwtEey5Q4OcZlJBuQ"/>
-      <visibility xmi:id="_bDchjjwtEey5Q4OcZlJBuQ" label="~"/>
-      <cardinality xmi:id="_bDchjzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_bDchkDwtEey5Q4OcZlJBuQ">
-        <modelElement href="LibrarySystem.uml#_ahRBcTwtEey5Q4OcZlJBuQ"/>
-        <type xmi:id="_bDchkTwtEey5Q4OcZlJBuQ" name="String">
+    <operations xmi:id="_bEBwTzwtEey5Q4OcZlJBuQ" name="searchBooks">
+      <modelElement href="LibrarySystem.uml#_ahhgIDwtEey5Q4OcZlJBuQ"/>
+      <stereotypes xmi:id="_bEBwUDwtEey5Q4OcZlJBuQ" name="Annotations">
+        <modelElement href="LibrarySystem.uml#_ahiHMDwtEey5Q4OcZlJBuQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bEBwUTwtEey5Q4OcZlJBuQ" label="+"/>
+      <cardinality xmi:id="_bEBwUjwtEey5Q4OcZlJBuQ" label="1..*" max="-1" min="1"/>
+      <outParameters xmi:id="_bEBwUzwtEey5Q4OcZlJBuQ">
+        <modelElement href="LibrarySystem.uml#_ahhgIjwtEey5Q4OcZlJBuQ"/>
+        <type xmi:id="_bEBwVDwtEey5Q4OcZlJBuQ" name="Book">
+          <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bEBwVTwtEey5Q4OcZlJBuQ" name="title">
+        <modelElement href="LibrarySystem.uml#_ahhgITwtEey5Q4OcZlJBuQ"/>
+        <cardinality xmi:id="_bEBwVjwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bEBwVzwtEey5Q4OcZlJBuQ" name="String">
           <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </type>
-      </outParameters>
+      </parameters>
     </operations>
-    <operations xmi:id="_bDchkjwtEey5Q4OcZlJBuQ" name="getAuthor">
-      <modelElement href="LibrarySystem.uml#_ahRogDwtEey5Q4OcZlJBuQ"/>
-      <visibility xmi:id="_bDchkzwtEey5Q4OcZlJBuQ" label="~"/>
-      <cardinality xmi:id="_bDchlDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_bDchlTwtEey5Q4OcZlJBuQ">
-        <modelElement href="LibrarySystem.uml#_ahRogTwtEey5Q4OcZlJBuQ"/>
-        <type xmi:id="_bDchljwtEey5Q4OcZlJBuQ" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    <operations xmi:id="_bEBwWDwtEey5Q4OcZlJBuQ" name="getByISBN">
+      <modelElement href="LibrarySystem.uml#_ahiuQTwtEey5Q4OcZlJBuQ"/>
+      <stereotypes xmi:id="_bEBwWTwtEey5Q4OcZlJBuQ" name="Annotations">
+        <modelElement href="LibrarySystem.uml#_ahjVUDwtEey5Q4OcZlJBuQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bEBwWjwtEey5Q4OcZlJBuQ" label="+"/>
+      <cardinality xmi:id="_bEBwWzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bEBwXDwtEey5Q4OcZlJBuQ">
+        <modelElement href="LibrarySystem.uml#_alNGQDwtEey5Q4OcZlJBuQ"/>
+        <type xmi:id="_bEBwXTwtEey5Q4OcZlJBuQ" name="Book">
+          <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
         </type>
       </outParameters>
-    </operations>
-    <operations xmi:id="_bDchlzwtEey5Q4OcZlJBuQ" name="getNumBooks">
-      <modelElement href="LibrarySystem.uml#_ahRogjwtEey5Q4OcZlJBuQ"/>
-      <visibility xmi:id="_bDchmDwtEey5Q4OcZlJBuQ" label="~"/>
-      <cardinality xmi:id="_bDchmTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_bDchmjwtEey5Q4OcZlJBuQ">
-        <modelElement href="LibrarySystem.uml#_ahSPkDwtEey5Q4OcZlJBuQ"/>
-        <type xmi:id="_bDchmzwtEey5Q4OcZlJBuQ" name="int">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_bDchnDwtEey5Q4OcZlJBuQ" name="getISBN">
-      <modelElement href="LibrarySystem.uml#_ahSPkTwtEey5Q4OcZlJBuQ"/>
-      <visibility xmi:id="_bDchnTwtEey5Q4OcZlJBuQ" label="+"/>
-      <cardinality xmi:id="_bDchnjwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_bDchnzwtEey5Q4OcZlJBuQ">
-        <modelElement href="LibrarySystem.uml#_ahSPkjwtEey5Q4OcZlJBuQ"/>
-        <type xmi:id="_bDchoDwtEey5Q4OcZlJBuQ" name="long">
+      <parameters xmi:id="_bEBwXjwtEey5Q4OcZlJBuQ" name="isbn">
+        <modelElement href="LibrarySystem.uml#_ahiuQjwtEey5Q4OcZlJBuQ"/>
+        <cardinality xmi:id="_bEBwXzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bEBwYDwtEey5Q4OcZlJBuQ" name="long">
           <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
         </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_bDchoTwtEey5Q4OcZlJBuQ" name="setTitle">
-      <modelElement href="LibrarySystem.uml#_ahS2oDwtEey5Q4OcZlJBuQ"/>
-      <visibility xmi:id="_bDchojwtEey5Q4OcZlJBuQ" label="~"/>
-      <cardinality xmi:id="_bDchozwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <parameters xmi:id="_bDchpDwtEey5Q4OcZlJBuQ" name="title">
-        <modelElement href="LibrarySystem.uml#_ahS2oTwtEey5Q4OcZlJBuQ"/>
-        <cardinality xmi:id="_bDchpTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-        <type xmi:id="_bDchpjwtEey5Q4OcZlJBuQ" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
       </parameters>
     </operations>
-    <operations xmi:id="_bDchpzwtEey5Q4OcZlJBuQ" name="setAuthor">
-      <modelElement href="LibrarySystem.uml#_ahS2ojwtEey5Q4OcZlJBuQ"/>
-      <visibility xmi:id="_bDchqDwtEey5Q4OcZlJBuQ" label="~"/>
-      <cardinality xmi:id="_bDchqTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <parameters xmi:id="_bDchqjwtEey5Q4OcZlJBuQ" name="author">
-        <modelElement href="LibrarySystem.uml#_ahTdsDwtEey5Q4OcZlJBuQ"/>
-        <cardinality xmi:id="_bDchqzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-        <type xmi:id="_bDchrDwtEey5Q4OcZlJBuQ" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_bDchrTwtEey5Q4OcZlJBuQ" name="setNumBooks">
-      <modelElement href="LibrarySystem.uml#_ahTdsTwtEey5Q4OcZlJBuQ"/>
-      <visibility xmi:id="_bDchrjwtEey5Q4OcZlJBuQ" label="~"/>
-      <cardinality xmi:id="_bDchrzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <parameters xmi:id="_bDchsDwtEey5Q4OcZlJBuQ" name="numBooks">
-        <modelElement href="LibrarySystem.uml#_ahTdsjwtEey5Q4OcZlJBuQ"/>
-        <cardinality xmi:id="_bDchsTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-        <type xmi:id="_bDchsjwtEey5Q4OcZlJBuQ" name="int">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_bDchszwtEey5Q4OcZlJBuQ" name="setISBN">
-      <modelElement href="LibrarySystem.uml#_alpLIDwtEey5Q4OcZlJBuQ"/>
-      <visibility xmi:id="_bDchtDwtEey5Q4OcZlJBuQ" label="+"/>
-      <cardinality xmi:id="_bDchtTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <parameters xmi:id="_bDchtjwtEey5Q4OcZlJBuQ" name="id">
-        <modelElement href="LibrarySystem.uml#_alpLITwtEey5Q4OcZlJBuQ"/>
-        <cardinality xmi:id="_bDchtzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-        <type xmi:id="_bDchuDwtEey5Q4OcZlJBuQ" name="Long">
-          <modelElement href="LibrarySystem.uml#_alahoDwtEey5Q4OcZlJBuQ"/>
-        </type>
-      </parameters>
-    </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bDmScDwtEey5Q4OcZlJBuQ" name="Librarian">
-    <modelElement href="LibrarySystem.uml#_agryoDwtEey5Q4OcZlJBuQ"/>
-    <visualProperties xmi:id="_bDmScTwtEey5Q4OcZlJBuQ" position="706.0,-47.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_bDmScjwtEey5Q4OcZlJBuQ" label="+"/>
-    <attributes xmi:id="_bDmSczwtEey5Q4OcZlJBuQ" name="userID">
-      <modelElement href="LibrarySystem.uml#_als1gTwtEey5Q4OcZlJBuQ"/>
-      <stereotypes xmi:id="_bDmSdDwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
-        <modelElement href="LibrarySystem.uml#_altckDwtEey5Q4OcZlJBuQ"/>
+    <operations xmi:id="_bEBwYTwtEey5Q4OcZlJBuQ" name="deleteBook">
+      <modelElement href="LibrarySystem.uml#_ahj8YDwtEey5Q4OcZlJBuQ"/>
+      <stereotypes xmi:id="_bEBwYjwtEey5Q4OcZlJBuQ" name="Annotations">
+        <modelElement href="LibrarySystem.uml#_ahkjcDwtEey5Q4OcZlJBuQ"/>
       </stereotypes>
-      <visibility xmi:id="_bDmSdTwtEey5Q4OcZlJBuQ" label="~"/>
-      <cardinality xmi:id="_bDmSdjwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <type xmi:id="_bDmSdzwtEey5Q4OcZlJBuQ" name="int">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      </type>
-    </attributes>
-    <attributes xmi:id="_bDmSeDwtEey5Q4OcZlJBuQ" name="pin">
-      <modelElement href="LibrarySystem.uml#_altckTwtEey5Q4OcZlJBuQ"/>
-      <stereotypes xmi:id="_bDmSeTwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
-        <modelElement href="LibrarySystem.uml#_aluDoDwtEey5Q4OcZlJBuQ"/>
-      </stereotypes>
-      <visibility xmi:id="_bDmSejwtEey5Q4OcZlJBuQ" label="~"/>
-      <cardinality xmi:id="_bDmSezwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <type xmi:id="_bDmSfDwtEey5Q4OcZlJBuQ" name="int">
-        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-      </type>
-    </attributes>
-    <operations xmi:id="_bDmSfTwtEey5Q4OcZlJBuQ" name="Librarian">
-      <modelElement href="LibrarySystem.uml#_agtAwDwtEey5Q4OcZlJBuQ"/>
-      <keywords xmi:id="_bDmSfjwtEey5Q4OcZlJBuQ" keyword="create"/>
-      <visibility xmi:id="_bDmSfzwtEey5Q4OcZlJBuQ" label="~"/>
-      <cardinality xmi:id="_bDmSgDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_bDmSgTwtEey5Q4OcZlJBuQ">
-        <modelElement href="LibrarySystem.uml#_agtn0jwtEey5Q4OcZlJBuQ"/>
-        <type xmi:id="_bDmSgjwtEey5Q4OcZlJBuQ" name="Librarian">
-          <modelElement href="LibrarySystem.uml#_agryoDwtEey5Q4OcZlJBuQ"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_bDmSgzwtEey5Q4OcZlJBuQ" name="getUserID">
-      <modelElement href="LibrarySystem.uml#_agtn0zwtEey5Q4OcZlJBuQ"/>
-      <visibility xmi:id="_bDmShDwtEey5Q4OcZlJBuQ" label="~"/>
-      <cardinality xmi:id="_bDmShTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_bDmShjwtEey5Q4OcZlJBuQ">
-        <modelElement href="LibrarySystem.uml#_aguO4DwtEey5Q4OcZlJBuQ"/>
-        <type xmi:id="_bDmShzwtEey5Q4OcZlJBuQ" name="int">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_bDmSiDwtEey5Q4OcZlJBuQ" name="getPIN">
-      <modelElement href="LibrarySystem.uml#_aguO4TwtEey5Q4OcZlJBuQ"/>
-      <visibility xmi:id="_bDmSiTwtEey5Q4OcZlJBuQ" label="~"/>
-      <cardinality xmi:id="_bDmSijwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_bDmSizwtEey5Q4OcZlJBuQ">
-        <modelElement href="LibrarySystem.uml#_agu18DwtEey5Q4OcZlJBuQ"/>
-        <type xmi:id="_bDmSjDwtEey5Q4OcZlJBuQ" name="int">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_bDmSjTwtEey5Q4OcZlJBuQ" name="setFirstName">
-      <modelElement href="LibrarySystem.uml#_agvdADwtEey5Q4OcZlJBuQ"/>
-      <visibility xmi:id="_bDmSjjwtEey5Q4OcZlJBuQ" label="~"/>
-      <cardinality xmi:id="_bDmSjzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <parameters xmi:id="_bDmSkDwtEey5Q4OcZlJBuQ" name="userID">
-        <modelElement href="LibrarySystem.uml#_agvdATwtEey5Q4OcZlJBuQ"/>
-        <cardinality xmi:id="_bDmSkTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-        <type xmi:id="_bDmSkjwtEey5Q4OcZlJBuQ" name="int">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      <visibility xmi:id="_bEBwYzwtEey5Q4OcZlJBuQ" label="+"/>
+      <cardinality xmi:id="_bEBwZDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bEBwZTwtEey5Q4OcZlJBuQ" name="isbn">
+        <modelElement href="LibrarySystem.uml#_ahj8YTwtEey5Q4OcZlJBuQ"/>
+        <cardinality xmi:id="_bEBwZjwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bEBwZzwtEey5Q4OcZlJBuQ" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
         </type>
       </parameters>
     </operations>
-    <operations xmi:id="_bDmSkzwtEey5Q4OcZlJBuQ" name="setPIN">
-      <modelElement href="LibrarySystem.uml#_agwEEDwtEey5Q4OcZlJBuQ"/>
-      <visibility xmi:id="_bDmSlDwtEey5Q4OcZlJBuQ" label="~"/>
-      <cardinality xmi:id="_bDmSlTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <parameters xmi:id="_bDmSljwtEey5Q4OcZlJBuQ" name="pin">
-        <modelElement href="LibrarySystem.uml#_agwEETwtEey5Q4OcZlJBuQ"/>
-        <cardinality xmi:id="_bDmSlzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-        <type xmi:id="_bDmSmDwtEey5Q4OcZlJBuQ" name="int">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    <operations xmi:id="_bEBwaDwtEey5Q4OcZlJBuQ" name="BookFunctions">
+      <modelElement href="LibrarySystem.uml#_alL4IDwtEey5Q4OcZlJBuQ"/>
+      <keywords xmi:id="_bEBwaTwtEey5Q4OcZlJBuQ" keyword="create"/>
+      <stereotypes xmi:id="_bEBwajwtEey5Q4OcZlJBuQ" name="StyledElement">
+        <modelElement href="LibrarySystem.uml#_alMfMzwtEey5Q4OcZlJBuQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bEBwazwtEey5Q4OcZlJBuQ" label="+"/>
+      <cardinality xmi:id="_bEBwbDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bEBwbTwtEey5Q4OcZlJBuQ">
+        <modelElement href="LibrarySystem.uml#_alMfMjwtEey5Q4OcZlJBuQ"/>
+        <type xmi:id="_bEBwbjwtEey5Q4OcZlJBuQ" name="BookFunctions">
+          <modelElement href="LibrarySystem.uml#_ahd1wDwtEey5Q4OcZlJBuQ"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_bEBwbzwtEey5Q4OcZlJBuQ" name="bookRepo">
+        <modelElement href="LibrarySystem.uml#_alL4ITwtEey5Q4OcZlJBuQ"/>
+        <cardinality xmi:id="_bEBwcDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bEBwcTwtEey5Q4OcZlJBuQ" name="BookRepo">
+          <modelElement href="LibrarySystem.uml#_agPGsjwtEey5Q4OcZlJBuQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bEBwcjwtEey5Q4OcZlJBuQ" name="addBook">
+      <modelElement href="LibrarySystem.uml#_alNGQTwtEey5Q4OcZlJBuQ"/>
+      <stereotypes xmi:id="_bEBwczwtEey5Q4OcZlJBuQ" name="Annotations">
+        <modelElement href="LibrarySystem.uml#_alNtUDwtEey5Q4OcZlJBuQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bEBwdDwtEey5Q4OcZlJBuQ" label="+"/>
+      <cardinality xmi:id="_bEBwdTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bEBwdjwtEey5Q4OcZlJBuQ" name="book">
+        <modelElement href="LibrarySystem.uml#_alNGQjwtEey5Q4OcZlJBuQ"/>
+        <cardinality xmi:id="_bEBwdzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bEBweDwtEey5Q4OcZlJBuQ" name="Book">
+          <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bEBweTwtEey5Q4OcZlJBuQ" name="updateBook">
+      <modelElement href="LibrarySystem.uml#_alOUYTwtEey5Q4OcZlJBuQ"/>
+      <stereotypes xmi:id="_bEBwejwtEey5Q4OcZlJBuQ" name="Annotations">
+        <modelElement href="LibrarySystem.uml#_alO7cDwtEey5Q4OcZlJBuQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bEBwezwtEey5Q4OcZlJBuQ" label="+"/>
+      <cardinality xmi:id="_bEBwfDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bEBwfTwtEey5Q4OcZlJBuQ" name="book">
+        <modelElement href="LibrarySystem.uml#_alOUYjwtEey5Q4OcZlJBuQ"/>
+        <cardinality xmi:id="_bEBwfjwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bEBwfzwtEey5Q4OcZlJBuQ" name="Book">
+          <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
         </type>
       </parameters>
     </operations>
   </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bDtAIDwtEey5Q4OcZlJBuQ" name="Patron">
     <modelElement href="LibrarySystem.uml#_ahVS4DwtEey5Q4OcZlJBuQ"/>
-    <visualProperties xmi:id="_bDtAITwtEey5Q4OcZlJBuQ" position="1021.0,-287.0" size="-1.0,-1.0"/>
+    <visualProperties xmi:id="_bDtAITwtEey5Q4OcZlJBuQ" position="-368.0,331.0" size="-1.0,-1.0"/>
     <visibility xmi:id="_bDtAIjwtEey5Q4OcZlJBuQ" label="+"/>
     <attributes xmi:id="_bDtAIzwtEey5Q4OcZlJBuQ" name="fname">
       <modelElement href="LibrarySystem.uml#_aly8IDwtEey5Q4OcZlJBuQ"/>
@@ -917,9 +993,94 @@
       </parameters>
     </operations>
   </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bDmScDwtEey5Q4OcZlJBuQ" name="Librarian">
+    <modelElement href="LibrarySystem.uml#_agryoDwtEey5Q4OcZlJBuQ"/>
+    <visualProperties xmi:id="_bDmScTwtEey5Q4OcZlJBuQ" position="-47.0,340.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bDmScjwtEey5Q4OcZlJBuQ" label="+"/>
+    <attributes xmi:id="_bDmSczwtEey5Q4OcZlJBuQ" name="userID">
+      <modelElement href="LibrarySystem.uml#_als1gTwtEey5Q4OcZlJBuQ"/>
+      <stereotypes xmi:id="_bDmSdDwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
+        <modelElement href="LibrarySystem.uml#_altckDwtEey5Q4OcZlJBuQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bDmSdTwtEey5Q4OcZlJBuQ" label="~"/>
+      <cardinality xmi:id="_bDmSdjwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bDmSdzwtEey5Q4OcZlJBuQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bDmSeDwtEey5Q4OcZlJBuQ" name="pin">
+      <modelElement href="LibrarySystem.uml#_altckTwtEey5Q4OcZlJBuQ"/>
+      <stereotypes xmi:id="_bDmSeTwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
+        <modelElement href="LibrarySystem.uml#_aluDoDwtEey5Q4OcZlJBuQ"/>
+      </stereotypes>
+      <visibility xmi:id="_bDmSejwtEey5Q4OcZlJBuQ" label="~"/>
+      <cardinality xmi:id="_bDmSezwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bDmSfDwtEey5Q4OcZlJBuQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_bDmSfTwtEey5Q4OcZlJBuQ" name="Librarian">
+      <modelElement href="LibrarySystem.uml#_agtAwDwtEey5Q4OcZlJBuQ"/>
+      <keywords xmi:id="_bDmSfjwtEey5Q4OcZlJBuQ" keyword="create"/>
+      <visibility xmi:id="_bDmSfzwtEey5Q4OcZlJBuQ" label="~"/>
+      <cardinality xmi:id="_bDmSgDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bDmSgTwtEey5Q4OcZlJBuQ">
+        <modelElement href="LibrarySystem.uml#_agtn0jwtEey5Q4OcZlJBuQ"/>
+        <type xmi:id="_bDmSgjwtEey5Q4OcZlJBuQ" name="Librarian">
+          <modelElement href="LibrarySystem.uml#_agryoDwtEey5Q4OcZlJBuQ"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bDmSgzwtEey5Q4OcZlJBuQ" name="getUserID">
+      <modelElement href="LibrarySystem.uml#_agtn0zwtEey5Q4OcZlJBuQ"/>
+      <visibility xmi:id="_bDmShDwtEey5Q4OcZlJBuQ" label="~"/>
+      <cardinality xmi:id="_bDmShTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bDmShjwtEey5Q4OcZlJBuQ">
+        <modelElement href="LibrarySystem.uml#_aguO4DwtEey5Q4OcZlJBuQ"/>
+        <type xmi:id="_bDmShzwtEey5Q4OcZlJBuQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bDmSiDwtEey5Q4OcZlJBuQ" name="getPIN">
+      <modelElement href="LibrarySystem.uml#_aguO4TwtEey5Q4OcZlJBuQ"/>
+      <visibility xmi:id="_bDmSiTwtEey5Q4OcZlJBuQ" label="~"/>
+      <cardinality xmi:id="_bDmSijwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bDmSizwtEey5Q4OcZlJBuQ">
+        <modelElement href="LibrarySystem.uml#_agu18DwtEey5Q4OcZlJBuQ"/>
+        <type xmi:id="_bDmSjDwtEey5Q4OcZlJBuQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bDmSjTwtEey5Q4OcZlJBuQ" name="setFirstName">
+      <modelElement href="LibrarySystem.uml#_agvdADwtEey5Q4OcZlJBuQ"/>
+      <visibility xmi:id="_bDmSjjwtEey5Q4OcZlJBuQ" label="~"/>
+      <cardinality xmi:id="_bDmSjzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bDmSkDwtEey5Q4OcZlJBuQ" name="userID">
+        <modelElement href="LibrarySystem.uml#_agvdATwtEey5Q4OcZlJBuQ"/>
+        <cardinality xmi:id="_bDmSkTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bDmSkjwtEey5Q4OcZlJBuQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_bDmSkzwtEey5Q4OcZlJBuQ" name="setPIN">
+      <modelElement href="LibrarySystem.uml#_agwEEDwtEey5Q4OcZlJBuQ"/>
+      <visibility xmi:id="_bDmSlDwtEey5Q4OcZlJBuQ" label="~"/>
+      <cardinality xmi:id="_bDmSlTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bDmSljwtEey5Q4OcZlJBuQ" name="pin">
+        <modelElement href="LibrarySystem.uml#_agwEETwtEey5Q4OcZlJBuQ"/>
+        <cardinality xmi:id="_bDmSlzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bDmSmDwtEey5Q4OcZlJBuQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
   <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_bD2KEDwtEey5Q4OcZlJBuQ" name="AccountRepo">
     <modelElement href="LibrarySystem.uml#_aglsADwtEey5Q4OcZlJBuQ"/>
-    <visualProperties xmi:id="_bD2KETwtEey5Q4OcZlJBuQ" position="-720.0,42.0" size="-1.0,-1.0"/>
+    <visualProperties xmi:id="_bD2KETwtEey5Q4OcZlJBuQ" position="-374.0,204.0" size="-1.0,-1.0"/>
     <stereotypes xmi:id="_bD2KEjwtEey5Q4OcZlJBuQ" name="Generics">
       <modelElement href="LibrarySystem.uml#_agnhMDwtEey5Q4OcZlJBuQ"/>
     </stereotypes>
@@ -949,341 +1110,157 @@
       </parameters>
     </operations>
   </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_bD6bgDwtEey5Q4OcZlJBuQ" name="BookRepo" associationsIn="_bD8QsDwtEey5Q4OcZlJBuQ">
-    <modelElement href="LibrarySystem.uml#_agPGsjwtEey5Q4OcZlJBuQ"/>
-    <visualProperties xmi:id="_bD6bgTwtEey5Q4OcZlJBuQ" position="-1463.0,-190.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_bD6bgjwtEey5Q4OcZlJBuQ" label="+"/>
-    <operations xmi:id="_bD6bgzwtEey5Q4OcZlJBuQ" name="searchLibrary">
-      <modelElement href="LibrarySystem.uml#_agQ74DwtEey5Q4OcZlJBuQ"/>
-      <stereotypes xmi:id="_bD6bhDwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
-        <modelElement href="LibrarySystem.uml#_agSKADwtEey5Q4OcZlJBuQ"/>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bDchcDwtEey5Q4OcZlJBuQ" name="Book" associationsOut="_bDY3EDwtEey5Q4OcZlJBuQ">
+    <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
+    <visualProperties xmi:id="_bDchcTwtEey5Q4OcZlJBuQ" position="-716.0,97.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_bDchcjwtEey5Q4OcZlJBuQ" label="+"/>
+    <attributes xmi:id="_bDchczwtEey5Q4OcZlJBuQ" name="title">
+      <modelElement href="LibrarySystem.uml#_alwf4zwtEey5Q4OcZlJBuQ"/>
+      <stereotypes xmi:id="_bDchdDwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
+        <modelElement href="LibrarySystem.uml#_alxG8DwtEey5Q4OcZlJBuQ"/>
       </stereotypes>
-      <stereotypes xmi:id="_bD6bhTwtEey5Q4OcZlJBuQ" name="Annotations">
-        <modelElement href="LibrarySystem.uml#_agTYIDwtEey5Q4OcZlJBuQ"/>
-      </stereotypes>
-      <visibility xmi:id="_bD6bhjwtEey5Q4OcZlJBuQ" label="+"/>
-      <cardinality xmi:id="_bD6bhzwtEey5Q4OcZlJBuQ" label="1..*" max="-1" min="1"/>
-      <outParameters xmi:id="_bD6biDwtEey5Q4OcZlJBuQ">
-        <modelElement href="LibrarySystem.uml#_agRi8DwtEey5Q4OcZlJBuQ"/>
-        <type xmi:id="_bD6biTwtEey5Q4OcZlJBuQ" name="Book">
-          <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_bD6bijwtEey5Q4OcZlJBuQ" name="title">
-        <modelElement href="LibrarySystem.uml#_agQ74TwtEey5Q4OcZlJBuQ"/>
-        <cardinality xmi:id="_bD6bizwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-        <type xmi:id="_bD6bjDwtEey5Q4OcZlJBuQ" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-    </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bEBwQDwtEey5Q4OcZlJBuQ" name="BookFunctions" associationsOut="_bD8QsDwtEey5Q4OcZlJBuQ" generalizations="_bD83wDwtEey5Q4OcZlJBuQ">
-    <modelElement href="LibrarySystem.uml#_ahd1wDwtEey5Q4OcZlJBuQ"/>
-    <visualProperties xmi:id="_bEBwQTwtEey5Q4OcZlJBuQ" position="-1242.0,-59.0" size="-1.0,-1.0"/>
-    <stereotypes xmi:id="_bEBwQjwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
-      <modelElement href="LibrarySystem.uml#_ahec0DwtEey5Q4OcZlJBuQ"/>
-    </stereotypes>
-    <stereotypes xmi:id="_bEBwQzwtEey5Q4OcZlJBuQ" name="Annotations">
-      <modelElement href="LibrarySystem.uml#_ahlKgDwtEey5Q4OcZlJBuQ"/>
-    </stereotypes>
-    <visibility xmi:id="_bEBwRDwtEey5Q4OcZlJBuQ" label="+"/>
-    <attributes xmi:id="_bEBwRTwtEey5Q4OcZlJBuQ" name="bookRepo">
-      <modelElement href="LibrarySystem.uml#_al1_cDwtEey5Q4OcZlJBuQ"/>
-      <visibility xmi:id="_bEBwRjwtEey5Q4OcZlJBuQ" label="-"/>
-      <cardinality xmi:id="_bEBwRzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <type xmi:id="_bEBwSDwtEey5Q4OcZlJBuQ" name="BookRepo">
-        <modelElement href="LibrarySystem.uml#_agPGsjwtEey5Q4OcZlJBuQ"/>
+      <visibility xmi:id="_bDchdTwtEey5Q4OcZlJBuQ" label="~"/>
+      <cardinality xmi:id="_bDchdjwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bDchdzwtEey5Q4OcZlJBuQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </type>
     </attributes>
-    <operations xmi:id="_bEBwSTwtEey5Q4OcZlJBuQ" name="getAllBooks">
-      <modelElement href="LibrarySystem.uml#_ahfD4DwtEey5Q4OcZlJBuQ"/>
-      <stereotypes xmi:id="_bEBwSjwtEey5Q4OcZlJBuQ" name="Annotations">
-        <modelElement href="LibrarySystem.uml#_ahgSADwtEey5Q4OcZlJBuQ"/>
+    <attributes xmi:id="_bDcheDwtEey5Q4OcZlJBuQ" name="author">
+      <modelElement href="LibrarySystem.uml#_alxG8TwtEey5Q4OcZlJBuQ"/>
+      <stereotypes xmi:id="_bDcheTwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
+        <modelElement href="LibrarySystem.uml#_alxuADwtEey5Q4OcZlJBuQ"/>
       </stereotypes>
-      <visibility xmi:id="_bEBwSzwtEey5Q4OcZlJBuQ" label="+"/>
-      <cardinality xmi:id="_bEBwTDwtEey5Q4OcZlJBuQ" label="1..*" max="-1" min="1"/>
-      <outParameters xmi:id="_bEBwTTwtEey5Q4OcZlJBuQ">
-        <modelElement href="LibrarySystem.uml#_ahfq8DwtEey5Q4OcZlJBuQ"/>
-        <type xmi:id="_bEBwTjwtEey5Q4OcZlJBuQ" name="Book">
-          <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
-        </type>
-      </outParameters>
-    </operations>
-    <operations xmi:id="_bEBwTzwtEey5Q4OcZlJBuQ" name="searchBooks">
-      <modelElement href="LibrarySystem.uml#_ahhgIDwtEey5Q4OcZlJBuQ"/>
-      <stereotypes xmi:id="_bEBwUDwtEey5Q4OcZlJBuQ" name="Annotations">
-        <modelElement href="LibrarySystem.uml#_ahiHMDwtEey5Q4OcZlJBuQ"/>
+      <visibility xmi:id="_bDchejwtEey5Q4OcZlJBuQ" label="~"/>
+      <cardinality xmi:id="_bDchezwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bDchfDwtEey5Q4OcZlJBuQ" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bDchfTwtEey5Q4OcZlJBuQ" name="numBooks">
+      <modelElement href="LibrarySystem.uml#_alxuATwtEey5Q4OcZlJBuQ"/>
+      <stereotypes xmi:id="_bDchfjwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
+        <modelElement href="LibrarySystem.uml#_alxuAjwtEey5Q4OcZlJBuQ"/>
       </stereotypes>
-      <visibility xmi:id="_bEBwUTwtEey5Q4OcZlJBuQ" label="+"/>
-      <cardinality xmi:id="_bEBwUjwtEey5Q4OcZlJBuQ" label="1..*" max="-1" min="1"/>
-      <outParameters xmi:id="_bEBwUzwtEey5Q4OcZlJBuQ">
-        <modelElement href="LibrarySystem.uml#_ahhgIjwtEey5Q4OcZlJBuQ"/>
-        <type xmi:id="_bEBwVDwtEey5Q4OcZlJBuQ" name="Book">
-          <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_bEBwVTwtEey5Q4OcZlJBuQ" name="title">
-        <modelElement href="LibrarySystem.uml#_ahhgITwtEey5Q4OcZlJBuQ"/>
-        <cardinality xmi:id="_bEBwVjwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-        <type xmi:id="_bEBwVzwtEey5Q4OcZlJBuQ" name="String">
-          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_bEBwWDwtEey5Q4OcZlJBuQ" name="getByISBN">
-      <modelElement href="LibrarySystem.uml#_ahiuQTwtEey5Q4OcZlJBuQ"/>
-      <stereotypes xmi:id="_bEBwWTwtEey5Q4OcZlJBuQ" name="Annotations">
-        <modelElement href="LibrarySystem.uml#_ahjVUDwtEey5Q4OcZlJBuQ"/>
+      <visibility xmi:id="_bDchfzwtEey5Q4OcZlJBuQ" label="~"/>
+      <cardinality xmi:id="_bDchgDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bDchgTwtEey5Q4OcZlJBuQ" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_bDchgjwtEey5Q4OcZlJBuQ" name="isbn">
+      <modelElement href="LibrarySystem.uml#_alyVEDwtEey5Q4OcZlJBuQ"/>
+      <stereotypes xmi:id="_bDchgzwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
+        <modelElement href="LibrarySystem.uml#_alyVETwtEey5Q4OcZlJBuQ"/>
       </stereotypes>
-      <visibility xmi:id="_bEBwWjwtEey5Q4OcZlJBuQ" label="+"/>
-      <cardinality xmi:id="_bEBwWzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_bEBwXDwtEey5Q4OcZlJBuQ">
-        <modelElement href="LibrarySystem.uml#_alNGQDwtEey5Q4OcZlJBuQ"/>
-        <type xmi:id="_bEBwXTwtEey5Q4OcZlJBuQ" name="Book">
-          <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_bEBwXjwtEey5Q4OcZlJBuQ" name="isbn">
-        <modelElement href="LibrarySystem.uml#_ahiuQjwtEey5Q4OcZlJBuQ"/>
-        <cardinality xmi:id="_bEBwXzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-        <type xmi:id="_bEBwYDwtEey5Q4OcZlJBuQ" name="long">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_bEBwYTwtEey5Q4OcZlJBuQ" name="deleteBook">
-      <modelElement href="LibrarySystem.uml#_ahj8YDwtEey5Q4OcZlJBuQ"/>
-      <stereotypes xmi:id="_bEBwYjwtEey5Q4OcZlJBuQ" name="Annotations">
-        <modelElement href="LibrarySystem.uml#_ahkjcDwtEey5Q4OcZlJBuQ"/>
-      </stereotypes>
-      <visibility xmi:id="_bEBwYzwtEey5Q4OcZlJBuQ" label="+"/>
-      <cardinality xmi:id="_bEBwZDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <parameters xmi:id="_bEBwZTwtEey5Q4OcZlJBuQ" name="isbn">
-        <modelElement href="LibrarySystem.uml#_ahj8YTwtEey5Q4OcZlJBuQ"/>
-        <cardinality xmi:id="_bEBwZjwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-        <type xmi:id="_bEBwZzwtEey5Q4OcZlJBuQ" name="long">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_bEBwaDwtEey5Q4OcZlJBuQ" name="BookFunctions">
-      <modelElement href="LibrarySystem.uml#_alL4IDwtEey5Q4OcZlJBuQ"/>
-      <keywords xmi:id="_bEBwaTwtEey5Q4OcZlJBuQ" keyword="create"/>
-      <stereotypes xmi:id="_bEBwajwtEey5Q4OcZlJBuQ" name="StyledElement">
-        <modelElement href="LibrarySystem.uml#_alMfMzwtEey5Q4OcZlJBuQ"/>
-      </stereotypes>
-      <visibility xmi:id="_bEBwazwtEey5Q4OcZlJBuQ" label="+"/>
-      <cardinality xmi:id="_bEBwbDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_bEBwbTwtEey5Q4OcZlJBuQ">
-        <modelElement href="LibrarySystem.uml#_alMfMjwtEey5Q4OcZlJBuQ"/>
-        <type xmi:id="_bEBwbjwtEey5Q4OcZlJBuQ" name="BookFunctions">
-          <modelElement href="LibrarySystem.uml#_ahd1wDwtEey5Q4OcZlJBuQ"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_bEBwbzwtEey5Q4OcZlJBuQ" name="bookRepo">
-        <modelElement href="LibrarySystem.uml#_alL4ITwtEey5Q4OcZlJBuQ"/>
-        <cardinality xmi:id="_bEBwcDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-        <type xmi:id="_bEBwcTwtEey5Q4OcZlJBuQ" name="BookRepo">
-          <modelElement href="LibrarySystem.uml#_agPGsjwtEey5Q4OcZlJBuQ"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_bEBwcjwtEey5Q4OcZlJBuQ" name="addBook">
-      <modelElement href="LibrarySystem.uml#_alNGQTwtEey5Q4OcZlJBuQ"/>
-      <stereotypes xmi:id="_bEBwczwtEey5Q4OcZlJBuQ" name="Annotations">
-        <modelElement href="LibrarySystem.uml#_alNtUDwtEey5Q4OcZlJBuQ"/>
-      </stereotypes>
-      <visibility xmi:id="_bEBwdDwtEey5Q4OcZlJBuQ" label="+"/>
-      <cardinality xmi:id="_bEBwdTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <parameters xmi:id="_bEBwdjwtEey5Q4OcZlJBuQ" name="book">
-        <modelElement href="LibrarySystem.uml#_alNGQjwtEey5Q4OcZlJBuQ"/>
-        <cardinality xmi:id="_bEBwdzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-        <type xmi:id="_bEBweDwtEey5Q4OcZlJBuQ" name="Book">
-          <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_bEBweTwtEey5Q4OcZlJBuQ" name="updateBook">
-      <modelElement href="LibrarySystem.uml#_alOUYTwtEey5Q4OcZlJBuQ"/>
-      <stereotypes xmi:id="_bEBwejwtEey5Q4OcZlJBuQ" name="Annotations">
-        <modelElement href="LibrarySystem.uml#_alO7cDwtEey5Q4OcZlJBuQ"/>
-      </stereotypes>
-      <visibility xmi:id="_bEBwezwtEey5Q4OcZlJBuQ" label="+"/>
-      <cardinality xmi:id="_bEBwfDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <parameters xmi:id="_bEBwfTwtEey5Q4OcZlJBuQ" name="book">
-        <modelElement href="LibrarySystem.uml#_alOUYjwtEey5Q4OcZlJBuQ"/>
-        <cardinality xmi:id="_bEBwfjwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-        <type xmi:id="_bEBwfzwtEey5Q4OcZlJBuQ" name="Book">
-          <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
-        </type>
-      </parameters>
-    </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bEcnADwtEey5Q4OcZlJBuQ" name="BookNotFoundException">
-    <modelElement href="LibrarySystem.uml#_agVNUDwtEey5Q4OcZlJBuQ"/>
-    <visualProperties xmi:id="_bEcnATwtEey5Q4OcZlJBuQ" position="1375.0,53.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_bEcnAjwtEey5Q4OcZlJBuQ" label="+"/>
-    <attributes xmi:id="_bEcnAzwtEey5Q4OcZlJBuQ" defaultValue="1L" name="serialVersionUID" staticAttribute="true">
-      <modelElement href="LibrarySystem.uml#_alsOcDwtEey5Q4OcZlJBuQ"/>
-      <visibility xmi:id="_bEcnBDwtEey5Q4OcZlJBuQ" label="-"/>
-      <cardinality xmi:id="_bEcnBTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <type xmi:id="_bEcnBjwtEey5Q4OcZlJBuQ" name="long">
+      <visibility xmi:id="_bDchhDwtEey5Q4OcZlJBuQ" label="~"/>
+      <cardinality xmi:id="_bDchhTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <type xmi:id="_bDchhjwtEey5Q4OcZlJBuQ" name="long">
         <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
       </type>
     </attributes>
-    <operations xmi:id="_bEcnBzwtEey5Q4OcZlJBuQ" name="BookNotFoundException">
-      <modelElement href="LibrarySystem.uml#_agXCgDwtEey5Q4OcZlJBuQ"/>
-      <keywords xmi:id="_bEcnCDwtEey5Q4OcZlJBuQ" keyword="create"/>
-      <visibility xmi:id="_bEcnCTwtEey5Q4OcZlJBuQ" label="+"/>
-      <cardinality xmi:id="_bEcnCjwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_bEcnCzwtEey5Q4OcZlJBuQ">
-        <modelElement href="LibrarySystem.uml#_agXpkTwtEey5Q4OcZlJBuQ"/>
-        <type xmi:id="_bEcnDDwtEey5Q4OcZlJBuQ" name="BookNotFoundException">
-          <modelElement href="LibrarySystem.uml#_agVNUDwtEey5Q4OcZlJBuQ"/>
+    <operations xmi:id="_bDchhzwtEey5Q4OcZlJBuQ" name="Book">
+      <modelElement href="LibrarySystem.uml#_ahQaYDwtEey5Q4OcZlJBuQ"/>
+      <keywords xmi:id="_bDchiDwtEey5Q4OcZlJBuQ" keyword="create"/>
+      <visibility xmi:id="_bDchiTwtEey5Q4OcZlJBuQ" label="~"/>
+      <cardinality xmi:id="_bDchijwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bDchizwtEey5Q4OcZlJBuQ">
+        <modelElement href="LibrarySystem.uml#_ahQaYzwtEey5Q4OcZlJBuQ"/>
+        <type xmi:id="_bDchjDwtEey5Q4OcZlJBuQ" name="Book">
+          <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
         </type>
       </outParameters>
-      <parameters xmi:id="_bEcnDTwtEey5Q4OcZlJBuQ" name="errorMessage">
-        <modelElement href="LibrarySystem.uml#_agXCgTwtEey5Q4OcZlJBuQ"/>
-        <cardinality xmi:id="_bEcnDjwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-        <type xmi:id="_bEcnDzwtEey5Q4OcZlJBuQ" name="String">
+    </operations>
+    <operations xmi:id="_bDchjTwtEey5Q4OcZlJBuQ" name="getTitle">
+      <modelElement href="LibrarySystem.uml#_ahRBcDwtEey5Q4OcZlJBuQ"/>
+      <visibility xmi:id="_bDchjjwtEey5Q4OcZlJBuQ" label="~"/>
+      <cardinality xmi:id="_bDchjzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bDchkDwtEey5Q4OcZlJBuQ">
+        <modelElement href="LibrarySystem.uml#_ahRBcTwtEey5Q4OcZlJBuQ"/>
+        <type xmi:id="_bDchkTwtEey5Q4OcZlJBuQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bDchkjwtEey5Q4OcZlJBuQ" name="getAuthor">
+      <modelElement href="LibrarySystem.uml#_ahRogDwtEey5Q4OcZlJBuQ"/>
+      <visibility xmi:id="_bDchkzwtEey5Q4OcZlJBuQ" label="~"/>
+      <cardinality xmi:id="_bDchlDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bDchlTwtEey5Q4OcZlJBuQ">
+        <modelElement href="LibrarySystem.uml#_ahRogTwtEey5Q4OcZlJBuQ"/>
+        <type xmi:id="_bDchljwtEey5Q4OcZlJBuQ" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bDchlzwtEey5Q4OcZlJBuQ" name="getNumBooks">
+      <modelElement href="LibrarySystem.uml#_ahRogjwtEey5Q4OcZlJBuQ"/>
+      <visibility xmi:id="_bDchmDwtEey5Q4OcZlJBuQ" label="~"/>
+      <cardinality xmi:id="_bDchmTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bDchmjwtEey5Q4OcZlJBuQ">
+        <modelElement href="LibrarySystem.uml#_ahSPkDwtEey5Q4OcZlJBuQ"/>
+        <type xmi:id="_bDchmzwtEey5Q4OcZlJBuQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bDchnDwtEey5Q4OcZlJBuQ" name="getISBN">
+      <modelElement href="LibrarySystem.uml#_ahSPkTwtEey5Q4OcZlJBuQ"/>
+      <visibility xmi:id="_bDchnTwtEey5Q4OcZlJBuQ" label="+"/>
+      <cardinality xmi:id="_bDchnjwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_bDchnzwtEey5Q4OcZlJBuQ">
+        <modelElement href="LibrarySystem.uml#_ahSPkjwtEey5Q4OcZlJBuQ"/>
+        <type xmi:id="_bDchoDwtEey5Q4OcZlJBuQ" name="long">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_bDchoTwtEey5Q4OcZlJBuQ" name="setTitle">
+      <modelElement href="LibrarySystem.uml#_ahS2oDwtEey5Q4OcZlJBuQ"/>
+      <visibility xmi:id="_bDchojwtEey5Q4OcZlJBuQ" label="~"/>
+      <cardinality xmi:id="_bDchozwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bDchpDwtEey5Q4OcZlJBuQ" name="title">
+        <modelElement href="LibrarySystem.uml#_ahS2oTwtEey5Q4OcZlJBuQ"/>
+        <cardinality xmi:id="_bDchpTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bDchpjwtEey5Q4OcZlJBuQ" name="String">
           <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </type>
       </parameters>
     </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:InterfaceVisual" xmi:id="_bEfDQDwtEey5Q4OcZlJBuQ" name="BookRestService" associationsIn="_bDY3EDwtEey5Q4OcZlJBuQ _bDDf4DwtEey5Q4OcZlJBuQ" subclassedBy="_bD83wDwtEey5Q4OcZlJBuQ">
-    <modelElement href="LibrarySystem.uml#_agY3sDwtEey5Q4OcZlJBuQ"/>
-    <visualProperties xmi:id="_bEfDQTwtEey5Q4OcZlJBuQ" position="-472.0,-289.0" size="-1.0,-1.0"/>
-    <stereotypes xmi:id="_bEfDQjwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
-      <modelElement href="LibrarySystem.uml#_agas4DwtEey5Q4OcZlJBuQ"/>
-    </stereotypes>
-    <stereotypes xmi:id="_bEfDQzwtEey5Q4OcZlJBuQ" name="Annotations">
-      <modelElement href="LibrarySystem.uml#_aghakDwtEey5Q4OcZlJBuQ"/>
-    </stereotypes>
-    <visibility xmi:id="_bEfDRDwtEey5Q4OcZlJBuQ" label="+"/>
-    <attributes xmi:id="_bEfDRTwtEey5Q4OcZlJBuQ" name="allBooks">
-      <modelElement href="LibrarySystem.uml#_agas4TwtEey5Q4OcZlJBuQ"/>
-      <stereotypes xmi:id="_kula8Dw2EeycacHjxt9dvQ" name="StyledElement"/>
-      <stereotypes xmi:id="_kun3MDw2EeycacHjxt9dvQ" name="StyledElement"/>
-      <stereotypes xmi:id="_kutWwDw2EeycacHjxt9dvQ" name="StyledElement"/>
-      <stereotypes xmi:id="_9x4D0Dw3EeycacHjxt9dvQ" name="StyledElement"/>
-      <visibility xmi:id="_bEfDRjwtEey5Q4OcZlJBuQ" label="+"/>
-      <cardinality xmi:id="_bEfDRzwtEey5Q4OcZlJBuQ" label="1..*" max="-1" min="1"/>
-      <type xmi:id="_bEfDSDwtEey5Q4OcZlJBuQ" name="Book">
-        <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
-      </type>
-    </attributes>
-    <operations xmi:id="_bEfDSTwtEey5Q4OcZlJBuQ" name="searchBooks">
-      <modelElement href="LibrarySystem.uml#_agciEDwtEey5Q4OcZlJBuQ"/>
-      <stereotypes xmi:id="_bEfDSjwtEey5Q4OcZlJBuQ" name="StyledElement">
-        <modelElement href="LibrarySystem.uml#_agdwMDwtEey5Q4OcZlJBuQ"/>
-      </stereotypes>
-      <visibility xmi:id="_bEfDSzwtEey5Q4OcZlJBuQ" label="+"/>
-      <cardinality xmi:id="_bEfDTDwtEey5Q4OcZlJBuQ" label="1..*" max="-1" min="1"/>
-      <outParameters xmi:id="_bEfDTTwtEey5Q4OcZlJBuQ">
-        <modelElement href="LibrarySystem.uml#_agdJIDwtEey5Q4OcZlJBuQ"/>
-        <type xmi:id="_bEfDTjwtEey5Q4OcZlJBuQ" name="Book">
-          <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_bEfDTzwtEey5Q4OcZlJBuQ" name="keyword">
-        <modelElement href="LibrarySystem.uml#_agciETwtEey5Q4OcZlJBuQ"/>
-        <cardinality xmi:id="_bEfDUDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-        <type xmi:id="_bEfDUTwtEey5Q4OcZlJBuQ" name="String">
+    <operations xmi:id="_bDchpzwtEey5Q4OcZlJBuQ" name="setAuthor">
+      <modelElement href="LibrarySystem.uml#_ahS2ojwtEey5Q4OcZlJBuQ"/>
+      <visibility xmi:id="_bDchqDwtEey5Q4OcZlJBuQ" label="~"/>
+      <cardinality xmi:id="_bDchqTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bDchqjwtEey5Q4OcZlJBuQ" name="author">
+        <modelElement href="LibrarySystem.uml#_ahTdsDwtEey5Q4OcZlJBuQ"/>
+        <cardinality xmi:id="_bDchqzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bDchrDwtEey5Q4OcZlJBuQ" name="String">
           <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
         </type>
       </parameters>
     </operations>
-    <operations xmi:id="_bEfDUjwtEey5Q4OcZlJBuQ" name="deleteBook">
-      <modelElement href="LibrarySystem.uml#_ageXQDwtEey5Q4OcZlJBuQ"/>
-      <stereotypes xmi:id="_bEfDUzwtEey5Q4OcZlJBuQ" name="StyledElement">
-        <modelElement href="LibrarySystem.uml#_age-UTwtEey5Q4OcZlJBuQ"/>
-      </stereotypes>
-      <visibility xmi:id="_bEfDVDwtEey5Q4OcZlJBuQ" label="+"/>
-      <cardinality xmi:id="_bEfDVTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <parameters xmi:id="_bEfDVjwtEey5Q4OcZlJBuQ" name="isbn">
-        <modelElement href="LibrarySystem.uml#_age-UDwtEey5Q4OcZlJBuQ"/>
-        <cardinality xmi:id="_bEfDVzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-        <type xmi:id="_bEfDWDwtEey5Q4OcZlJBuQ" name="long">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    <operations xmi:id="_bDchrTwtEey5Q4OcZlJBuQ" name="setNumBooks">
+      <modelElement href="LibrarySystem.uml#_ahTdsTwtEey5Q4OcZlJBuQ"/>
+      <visibility xmi:id="_bDchrjwtEey5Q4OcZlJBuQ" label="~"/>
+      <cardinality xmi:id="_bDchrzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bDchsDwtEey5Q4OcZlJBuQ" name="numBooks">
+        <modelElement href="LibrarySystem.uml#_ahTdsjwtEey5Q4OcZlJBuQ"/>
+        <cardinality xmi:id="_bDchsTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bDchsjwtEey5Q4OcZlJBuQ" name="int">
+          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
         </type>
       </parameters>
     </operations>
-    <operations xmi:id="_bEfDWTwtEey5Q4OcZlJBuQ" name="getByISBN">
-      <modelElement href="LibrarySystem.uml#_agflYDwtEey5Q4OcZlJBuQ"/>
-      <stereotypes xmi:id="_bEfDWjwtEey5Q4OcZlJBuQ" name="StyledElement">
-        <modelElement href="LibrarySystem.uml#_aggMcDwtEey5Q4OcZlJBuQ"/>
-      </stereotypes>
-      <visibility xmi:id="_bEfDWzwtEey5Q4OcZlJBuQ" label="+"/>
-      <cardinality xmi:id="_bEfDXDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <outParameters xmi:id="_bEfDXTwtEey5Q4OcZlJBuQ">
-        <modelElement href="LibrarySystem.uml#_akmpUzwtEey5Q4OcZlJBuQ"/>
-        <type xmi:id="_bEfDXjwtEey5Q4OcZlJBuQ" name="Book">
-          <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
-        </type>
-      </outParameters>
-      <parameters xmi:id="_bEfDXzwtEey5Q4OcZlJBuQ" name="id">
-        <modelElement href="LibrarySystem.uml#_agflYTwtEey5Q4OcZlJBuQ"/>
-        <cardinality xmi:id="_bEfDYDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-        <type xmi:id="_bEfDYTwtEey5Q4OcZlJBuQ" name="long">
-          <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    <operations xmi:id="_bDchszwtEey5Q4OcZlJBuQ" name="setISBN">
+      <modelElement href="LibrarySystem.uml#_alpLIDwtEey5Q4OcZlJBuQ"/>
+      <visibility xmi:id="_bDchtDwtEey5Q4OcZlJBuQ" label="+"/>
+      <cardinality xmi:id="_bDchtTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+      <parameters xmi:id="_bDchtjwtEey5Q4OcZlJBuQ" name="id">
+        <modelElement href="LibrarySystem.uml#_alpLITwtEey5Q4OcZlJBuQ"/>
+        <cardinality xmi:id="_bDchtzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
+        <type xmi:id="_bDchuDwtEey5Q4OcZlJBuQ" name="Long">
+          <modelElement href="LibrarySystem.uml#_alahoDwtEey5Q4OcZlJBuQ"/>
         </type>
       </parameters>
     </operations>
-    <operations xmi:id="_bEfDYjwtEey5Q4OcZlJBuQ" name="addBook">
-      <modelElement href="LibrarySystem.uml#_akmCQDwtEey5Q4OcZlJBuQ"/>
-      <stereotypes xmi:id="_bEfDYzwtEey5Q4OcZlJBuQ" name="StyledElement">
-        <modelElement href="LibrarySystem.uml#_akmCQjwtEey5Q4OcZlJBuQ"/>
-      </stereotypes>
-      <visibility xmi:id="_bEfDZDwtEey5Q4OcZlJBuQ" label="+"/>
-      <cardinality xmi:id="_bEfDZTwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <parameters xmi:id="_bEfDZjwtEey5Q4OcZlJBuQ" name="book">
-        <modelElement href="LibrarySystem.uml#_akmCQTwtEey5Q4OcZlJBuQ"/>
-        <cardinality xmi:id="_bEfDZzwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-        <type xmi:id="_bEfDaDwtEey5Q4OcZlJBuQ" name="Book">
-          <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
-        </type>
-      </parameters>
-    </operations>
-    <operations xmi:id="_bEfDaTwtEey5Q4OcZlJBuQ" name="updateBook">
-      <modelElement href="LibrarySystem.uml#_akmpUDwtEey5Q4OcZlJBuQ"/>
-      <stereotypes xmi:id="_bEfDajwtEey5Q4OcZlJBuQ" name="StyledElement">
-        <modelElement href="LibrarySystem.uml#_akmpUjwtEey5Q4OcZlJBuQ"/>
-      </stereotypes>
-      <visibility xmi:id="_bEfDazwtEey5Q4OcZlJBuQ" label="+"/>
-      <cardinality xmi:id="_bEfDbDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-      <parameters xmi:id="_bEfDbTwtEey5Q4OcZlJBuQ" name="book">
-        <modelElement href="LibrarySystem.uml#_akmpUTwtEey5Q4OcZlJBuQ"/>
-        <cardinality xmi:id="_bEfDbjwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-        <type xmi:id="_bEfDbzwtEey5Q4OcZlJBuQ" name="Book">
-          <modelElement href="LibrarySystem.uml#_ahOlMzwtEey5Q4OcZlJBuQ"/>
-        </type>
-      </parameters>
-    </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_bEm_EDwtEey5Q4OcZlJBuQ" name="LibrarySystemApplicationTests">
-    <modelElement href="LibrarySystem.uml#_ahMwADwtEey5Q4OcZlJBuQ"/>
-    <visualProperties xmi:id="_bEm_ETwtEey5Q4OcZlJBuQ" position="-1485.0,120.0" size="-1.0,-1.0"/>
-    <stereotypes xmi:id="_bEm_EjwtEey5Q4OcZlJBuQ" name="LegacyStyledElement">
-      <modelElement href="LibrarySystem.uml#_ahN-IDwtEey5Q4OcZlJBuQ"/>
-    </stereotypes>
-    <stereotypes xmi:id="_bEm_EzwtEey5Q4OcZlJBuQ" name="Annotations">
-      <modelElement href="LibrarySystem.uml#_ahOlMTwtEey5Q4OcZlJBuQ"/>
-    </stereotypes>
-    <visibility xmi:id="_bEm_FDwtEey5Q4OcZlJBuQ" label="~"/>
-    <operations xmi:id="_bEm_FTwtEey5Q4OcZlJBuQ" name="contextLoads">
-      <modelElement href="LibrarySystem.uml#_ahN-ITwtEey5Q4OcZlJBuQ"/>
-      <stereotypes xmi:id="_bEm_FjwtEey5Q4OcZlJBuQ" name="Annotations">
-        <modelElement href="LibrarySystem.uml#_ahN-IjwtEey5Q4OcZlJBuQ"/>
-      </stereotypes>
-      <visibility xmi:id="_bEm_FzwtEey5Q4OcZlJBuQ" label="~"/>
-      <cardinality xmi:id="_bEm_GDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
-    </operations>
-  </nodes>
-  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-IRKkDw3EeycacHjxt9dvQ" name="NewClass1">
-    <modelElement href="LibrarySystem.uml#_-IOHQDw3EeycacHjxt9dvQ"/>
-    <visualProperties xmi:id="_-IRKkTw3EeycacHjxt9dvQ" position="-950.0,254.0" size="-1.0,-1.0"/>
-    <visibility xmi:id="_-IRKkjw3EeycacHjxt9dvQ" label="+"/>
   </nodes>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

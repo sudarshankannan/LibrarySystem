@@ -15,7 +15,9 @@ import com.example.repositories.BookRepo;
 public class BookFunctions implements BookRestService {
 
 	private final BookRepo bookRepo;
-
+	public BookFunctions() {
+		this.bookRepo = null;
+	}
 	public BookFunctions(BookRepo bookRepo) {
 		this.bookRepo = bookRepo;
 	}
