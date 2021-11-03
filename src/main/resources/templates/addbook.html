@@ -13,7 +13,28 @@
 </head>
 
 <body>
-	<div th:insert="header :: header"></div>
+	<nav th:fragment= "header" class="navbar navbar-expand-lg navbar-dark" style="background-color: #3A5A81; color: white;">
+	  	<a class="navbar-brand">Library Management System</a>
+	  	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+	    	<span class="navbar-toggler-icon"></span>
+	  	</button>
+	  	<div class="collapse navbar-collapse" id="navbarSupportedContent" >
+	    	<ul class="navbar-nav mr-auto" >
+		      	<li class="nav-item active">
+		        	<a class="nav-link" href="/">Home <span class="sr-only"></span></a>
+		      	</li>
+		     	<li class="nav-item active">
+		      	  	<a class="nav-link" th:href="@{/addbook}">Add Book </a>
+		     	</li>
+		      	<li class="nav-item active">
+		        	<a class="nav-link" th:href="@{/searchbook}">Search Book </a>
+		      	</li>
+		      	<li class="nav-item active">
+		        	<a class="nav-link" th:href="@{/signup}">Create Account </a>
+		      	</li>
+		    </ul>
+	  	</div>
+	</nav>
 	<div class="container my-5">
 		<h3>Add Book</h3>
 		<div class="card">
