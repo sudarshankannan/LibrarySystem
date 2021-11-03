@@ -35,7 +35,7 @@ public class AddBookController {
 	}
 
 	@GetMapping("/searchBook")
-	public String searchBook(@Param("keyword") String title, Model model) {
+	public String searchBook() {
 //		final List<Book> books = bService.searchBooks(title);
 //
 //		model.addAttribute("books", books);

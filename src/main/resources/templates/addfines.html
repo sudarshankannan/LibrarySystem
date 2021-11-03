@@ -4,7 +4,7 @@
 <head>
 <meta charset="utf-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>Search for Book</title>
+<title>Add Fines</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet"
 	href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
@@ -19,21 +19,13 @@
 		<div class="card">
 			<div class="card-body">
 				<div class="col-md-10">
-					<form action="#" th:action="@{/searchbook}" th:object="${book}"
+					<form action="#" th:action="@{/addfines}" th:object="${Patron}"
 						method="post">
 						<div class="row">
-
 							<div class="form-group col-md-8">
-								<label for="isbn" class="col-form-label">ISBN</label> 
-								<input type="text" th:field="*{isbn}" class="form-control" id="isbn" placeholder="ISBN" /> 
-								<span th:if="${#fields.hasErrors('isbn')}" th:errors="*{isbn}"></span>
+								<label for="Patron ID" class="col-form-label">Patron ID</label> 
+								<input type="text" th:field="*{Patron}" class="form-control" id="Patron"placeholder="Patron" />
 							</div>
-
-							<div class="form-group col-md-8">
-								<label for="Title" class="col-form-label">Title</label> 
-								<input type="text" th:field="*{Title}" class="form-control" id="Title"placeholder="Title" />
-							</div>
-							
 							<div class="col-md-6">
 								<input type="submit" class="btn btn-primary" value=" Submit ">
 							</div>
