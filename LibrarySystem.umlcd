@@ -1167,6 +1167,7 @@
       <stereotypes xmi:id="_kula8Dw2EeycacHjxt9dvQ" name="StyledElement"/>
       <stereotypes xmi:id="_kun3MDw2EeycacHjxt9dvQ" name="StyledElement"/>
       <stereotypes xmi:id="_kutWwDw2EeycacHjxt9dvQ" name="StyledElement"/>
+      <stereotypes xmi:id="_9x4D0Dw3EeycacHjxt9dvQ" name="StyledElement"/>
       <visibility xmi:id="_bEfDRjwtEey5Q4OcZlJBuQ" label="+"/>
       <cardinality xmi:id="_bEfDRzwtEey5Q4OcZlJBuQ" label="1..*" max="-1" min="1"/>
       <type xmi:id="_bEfDSDwtEey5Q4OcZlJBuQ" name="Book">
@@ -1279,5 +1280,10 @@
       <visibility xmi:id="_bEm_FzwtEey5Q4OcZlJBuQ" label="~"/>
       <cardinality xmi:id="_bEm_GDwtEey5Q4OcZlJBuQ" label="1" max="1" min="1"/>
     </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_-IRKkDw3EeycacHjxt9dvQ" name="NewClass1">
+    <modelElement href="LibrarySystem.uml#_-IOHQDw3EeycacHjxt9dvQ"/>
+    <visualProperties xmi:id="_-IRKkTw3EeycacHjxt9dvQ" position="-950.0,254.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_-IRKkjw3EeycacHjxt9dvQ" label="+"/>
   </nodes>
 </com.yattasolutions.uml.diagrams.classifier:ClassDiagram>

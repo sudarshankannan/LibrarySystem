@@ -845,6 +845,7 @@
             <ownedEnd xmi:id="_amdqgTwtEey5Q4OcZlJBuQ" name="" type="_ag0VgTwtEey5Q4OcZlJBuQ" association="_amdqgDwtEey5Q4OcZlJBuQ"/>
           </packagedElement>
         </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_-IOHQDw3EeycacHjxt9dvQ" name="NewClass1"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_aesOkDwtEey5Q4OcZlJBuQ" name="org">
