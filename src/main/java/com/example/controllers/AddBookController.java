@@ -16,7 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.example.model.Book;
 import com.example.services.BookRestService;
 
-@RestController
+@Controller
 @ComponentScan({"com.example.services"})
 public class AddBookController {
 
@@ -53,13 +53,13 @@ public class AddBookController {
 
 	@GetMapping("/addbook")
 	public String addBook(Book book, BindingResult result, Model model) {
-		if (result.hasErrors()) {
-			return "addbook";
-		}
-
-		bService.addBook(book);
-		model.addAttribute("book", bService.getAllBooks());
-		return "redirect:/books";
+//		if (result.hasErrors()) {
+//			return "addbook";
+//		}
+//
+//		bService.addBook(book);
+//		model.addAttribute("book", bService.getAllBooks());
+		return "addbook";
 	}
 
 	@GetMapping("/update/{isbn}")
@@ -73,7 +73,7 @@ public class AddBookController {
 	@GetMapping("/update-book/{isbn}")
 	public String updateBook(@PathVariable("isbn") Long isbn, Book book, BindingResult result, Model model) {
 		if (result.hasErrors()) {
-			book.setISBN(isbn);
+			book.setIsbn(isbn);
 			return "update-book";
 		}
 

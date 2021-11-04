@@ -1,42 +1,45 @@
 package com.example.model;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Book{
     String title;
     String author;
     int numBooks;
-	long isbn;
+	Long isbn;
     //constructors
     Book(){
         String title = null;
         String author = null;
         int numBooks = 3;
-        long isbn = -1;
+        Long isbn = (long) -1;
     }
     //getters
-    String getTitle(){
+    public String getTitle(){
         return this.title;
     }
-    String getAuthor(){
+    public String getAuthor(){
         return this.author;
     }
-    int getNumBooks(){
+    public int getNumBooks(){
         return this.numBooks;
     }
-    public long getISBN() {
+    public Long getIsbn() {
 		// TODO Auto-generated method stub
 		return this.isbn;
 	}
     //setters
-    void setTitle(String title){
+    public void setTitle(String title){
         this.title = title;
     }
-    void setAuthor(String author){
+    public void setAuthor(String author){
         this.author = author;
     }
-    void setNumBooks(int numBooks){
+    public void setNumBooks(int numBooks){
         this.numBooks = numBooks;
     }
-	public void setISBN(Long id) {
+	public void setIsbn(Long isbn) {
 		// TODO Auto-generated method stub
 		this.isbn = isbn;
 	}

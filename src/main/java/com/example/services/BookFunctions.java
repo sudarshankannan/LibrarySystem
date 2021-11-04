@@ -46,7 +46,7 @@ public class BookFunctions implements BookRestService {
 
 	@Override
 	public void addBook(Book book) {
-		bookRepo.save(book);
+		//bookRepo.save(book);
 	}
 
 	@Override
@@ -59,7 +59,7 @@ public class BookFunctions implements BookRestService {
 		final Book book = bookRepo.findById(isbn)
 				.orElseThrow(() -> new BookNotFoundException(String.format("No book with ISBN %d in the library", isbn)));
 
-		bookRepo.deleteById(book.getISBN());
+		bookRepo.deleteById(book.getIsbn());
 	}
 
 }

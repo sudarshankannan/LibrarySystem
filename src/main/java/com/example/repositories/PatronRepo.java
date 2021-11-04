@@ -7,7 +7,7 @@ import org.springframework.data.jpa.repository.Query;
 
 import com.example.model.Book;
 
-public interface AccountRepo <Patron, Long> extends JpaRepository<Book, Long> {
+public interface PatronRepo <Patron, Long> extends JpaRepository<Patron, Long> {
 		@Query("SELECT a FROM Patrons p WHERE p.id LIKE %?1%")
-		public List<Book> searchAccounts(String id);
+		public List<Patron> searchPatrons(String id);
 }
