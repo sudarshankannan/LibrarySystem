@@ -46,14 +46,14 @@
 
 							<div class="form-group col-md-8">
 								<label for="First Name" class="col-form-label">First Name</label> 
-								<input type="text" th:field="*{fname}" class="form-control" id="fname" placeholder="First Name" /> 
-								<span th:if="${#fields.hasErrors('fname')}" th:errors="*{fname}"></span>
+								<input type="text" th:field="*{first}" class="form-control" id="first" placeholder="First Name" /> 
+								<span th:if="${#fields.hasErrors('first')}" th:errors="*{first}"></span>
 							</div>
 
 							<div class="form-group col-md-8">
 								<label for="Last Name" class="col-form-label">Last Name</label> 
-								<input type="text" th:field="*{lname}" class="form-control" id="lname" placeholder="Last Name" /> 
-								<span th:if="${#fields.hasErrors('lname')}" th:errors="*{lname}"></span>
+								<input type="text" th:field="*{last}" class="form-control" id="last" placeholder="Last Name" /> 
+								<span th:if="${#fields.hasErrors('last')}" th:errors="*{last}"></span>
 							</div>
 							
 							<div class="col-md-6">

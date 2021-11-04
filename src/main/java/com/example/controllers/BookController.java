@@ -18,11 +18,11 @@ import com.example.services.BookRestService;
 
 @Controller
 @ComponentScan({"com.example.services"})
-public class AddBookController {
+public class BookController {
 
 	private final BookRestService bService;
 
-	public AddBookController(BookRestService bookService) {
+	public BookController(BookRestService bookService) {
 		this.bService = bookService;
 	}
 
@@ -34,8 +34,8 @@ public class AddBookController {
 		return "list-books";
 	}
 
-	@GetMapping("/searchBook")
-	public String searchBook() {
+	@GetMapping("/searchbook")
+	public String searchBook(Book book, BindingResult result, Model model) {
 //		final List<Book> books = bService.searchBooks(title);
 //
 //		model.addAttribute("books", books);

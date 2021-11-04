@@ -17,12 +17,12 @@ import com.example.services.PatronRestService;
 public class SignupController {
 	private final PatronRestService pService;
 
-	public SignupController(PatronRestService bookService) {
-		this.pService = bookService;
+	public SignupController(PatronRestService patronService) {
+		this.pService = patronService;
 	}
 
 	@GetMapping("/patrons")
-	public String findAllBooks(Model model) {
+	public String findAllPatrons(Model model) {
 		final List<Patron> patrons = pService.getAllPatrons();
 
 		model.addAttribute("patrons", patrons);
@@ -39,7 +39,7 @@ public class SignupController {
 	}
 
 	@GetMapping("/patron/{id}")
-	public String findBookById(@PathVariable("id") int id, Model model) {
+	public String findPatronById(@PathVariable("id") int id, Model model) {
 		final Patron patron = pService.getById(id);
 
 		model.addAttribute("patron", patron);
@@ -47,7 +47,7 @@ public class SignupController {
 	}
 
 	@GetMapping("/signup")
-	public String addBook(Patron patron, BindingResult result, Model model) {
+	public String addPatron(Patron patron, BindingResult result, Model model) {
 //			if (result.hasErrors()) {
 //				return "addbook";
 //			}
@@ -56,13 +56,22 @@ public class SignupController {
 //			model.addAttribute("book", bService.getAllBooks());
 		return "signup";
 	}
+	@GetMapping("/login")
+	public String login(Patron patron, BindingResult result, Model model) {
+//			if (result.hasErrors()) {
+//				return "addbook";
+//			}
+//
+//			bService.addBook(book);
+//			model.addAttribute("book", bService.getAllBooks());
+		return "login";
+	}	
+	@GetMapping("/update/{id}")
+	public String showUpdateForm(@PathVariable("id") int id, Model model) {
+		final Patron patron = pService.getById(id);
 
-	@GetMapping("/update/{isbn}")
-	public String showUpdateForm(@PathVariable("isbn") Long isbn, Model model) {
-		final Patron book = pService.getById(id);
-
-		model.addAttribute("book", book);
-		return "update-book";
+		model.addAttribute("Patron", patron);
+		return "update-patron";
 	}
 
 	@GetMapping("/removePatron/{id}")

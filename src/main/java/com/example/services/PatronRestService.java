@@ -16,7 +16,7 @@ public interface PatronRestService {
 
 	public void addPatron(Patron patron);
 
-	public void updatePatron(Book patron);
+	public void updatePatron(Patron patron);
 
 	public void deletePatron(int id);
 

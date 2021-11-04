@@ -1,57 +1,60 @@
 package com.example.model;
 
+import javax.persistence.Entity;
+
+@Entity
 public class Patron{
-    String fname;
-    String lname;
-    int userID;
+    String first;
+    String last;
+    int id;
     int pin;
     int numBooks;
     float fines;
     //constructors
     Patron(){
-        this.fname = null;
-        this.lname = null;
-        this.userID = -1;
+        this.first = null;
+        this.last = null;
+        this.id = -1;
         this.pin = -1;
         this.numBooks = 0;
         this.fines = 0;
     }
     //getters
-    String getFirstName(){
-        return this.fname;
+    public String getFirst(){
+        return this.first;
     }
-    String getLastName(){
-        return this.lname;
+    public String getLast(){
+        return this.last;
     }
-    int getUserID(){
-        return this.userID;
+    public int getId(){
+        return this.id;
     }
-    int getPIN(){
+    public int getPIN(){
         return this.pin;
     }
-    int getNumBooks(){
+    public int getNumBooks(){
         return this.numBooks;
     }
-    float getFines(){
+    public float getFines(){
         return this.fines;
     }
     //setters
-    void setFirstName(String fname){
-        this.fname = fname;
+    public void setFirstName(String first){
+        this.first = first;
     } 
-    void setLastName(String lname){
-        this.lname = lname;
+    public void setLastName(String last){
+        this.last = last;
     }
-    void setUserID(int userID){
-        this.userID = userID;
+    public void setId(int id){
+        this.id = id;
     }
-    void setPIN(int pin){
+    public void setPIN(int pin){
         this.pin = pin;
     }
-    void setNumBooks(int numBooks){
+    public void setNumBooks(int numBooks){
         this.numBooks = numBooks;
     }
-    void setFines(float fines){
+    public void setFines(float fines){
         this.fines = fines;
     }
 }
