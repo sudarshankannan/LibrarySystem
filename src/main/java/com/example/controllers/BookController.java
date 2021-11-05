@@ -56,7 +56,6 @@ public class BookController {
 //		if (result.hasErrors()) {
 //			return "addbook";
 //		}
-//
 //		bService.addBook(book);
 //		model.addAttribute("book", bService.getAllBooks());
 		return "addbook";

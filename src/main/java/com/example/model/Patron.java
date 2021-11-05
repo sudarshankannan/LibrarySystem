@@ -1,12 +1,19 @@
 package com.example.model;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
 @Entity
 public class Patron{
     String first;
     String last;
+    
+    @Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
+    
     int pin;
     int numBooks;
     float fines;

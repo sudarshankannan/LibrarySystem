@@ -3,11 +3,13 @@ package com.example.services;
 import java.util.List;
 
 import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Service;
 
 import com.example.model.Book;
 import com.example.model.Patron;
 
 @ComponentScan({"com.example.services"})
+@Service
 public interface PatronRestService {
 
 	public List<Patron> getAllPatrons();

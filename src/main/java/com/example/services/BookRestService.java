@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import com.example.model.Book;
 
 @ComponentScan({"com.example.services"})
+@Service
 public interface BookRestService {
 
 	public List<Book> getAllBooks();
