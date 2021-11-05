@@ -53,12 +53,21 @@ public class BookController {
 
 	@GetMapping("/addbook")
 	public String addBook(Book book, BindingResult result, Model model) {
-//		if (result.hasErrors()) {
-//			return "addbook";
-//		}
-//		bService.addBook(book);
+		if (result.hasErrors()) {
+			return "addbook";
+		}
+		//bService.addBook(book);
 //		model.addAttribute("book", bService.getAllBooks());
 		return "addbook";
+	}
+	@RequestMapping("/addbook")
+	public String createBook(Book book, BindingResult result, Model model) {
+		if (result.hasErrors()) {
+			return "addbook";
+		}
+
+		bService.addBook(book);
+		return "redirect:/addbook";
 	}
 
 	@GetMapping("/update/{isbn}")

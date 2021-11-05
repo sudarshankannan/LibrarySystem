@@ -46,7 +46,7 @@ public class BookFunctions implements BookRestService {
 
 	@Override
 	public void addBook(Book book) {
-		//bookRepo.save(book);
+		bookRepo.save(book);
 	}
 
 	@Override

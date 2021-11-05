@@ -48,10 +48,10 @@ public class SignupController {
 
 	@GetMapping("/signup")
 	public String addPatron(Patron patron, BindingResult result, Model model) {
-			if (result.hasErrors()) {
-				return "addbook";
-			}
-			pService.addPatron(patron);
+		if (result.hasErrors()) {
+			return "signup";
+		}
+		pService.addPatron(patron);
 		return "signup";
 	}
 	@GetMapping("/login")
