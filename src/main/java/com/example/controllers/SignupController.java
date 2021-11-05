@@ -8,7 +8,9 @@ import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 
+import com.example.model.Book;
 import com.example.model.Patron;
 import com.example.services.PatronRestService;
 
@@ -53,6 +55,15 @@ public class SignupController {
 		}
 		pService.addPatron(patron);
 		return "signup";
+	}
+	@RequestMapping("/signup")
+	public String createBook(Patron patron, BindingResult result, Model model) {
+		if (result.hasErrors()) {
+			return "signup";
+		}
+
+		pService.addPatron(patron);
+		return "redirect:/addbook";
 	}
 	@GetMapping("/login")
 	public String login(Patron patron, BindingResult result, Model model) {
