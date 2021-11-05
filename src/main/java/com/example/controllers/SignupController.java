@@ -53,7 +53,6 @@ public class SignupController {
 		if (result.hasErrors()) {
 			return "signup";
 		}
-		pService.addPatron(patron);
 		return "signup";
 	}
 	@RequestMapping("/signup")
@@ -63,7 +62,7 @@ public class SignupController {
 		}
 
 		pService.addPatron(patron);
-		return "redirect:/addbook";
+		return "redirect:/signup";
 	}
 	@GetMapping("/login")
 	public String login(Patron patron, BindingResult result, Model model) {

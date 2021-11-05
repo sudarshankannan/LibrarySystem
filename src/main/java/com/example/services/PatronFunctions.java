@@ -48,7 +48,7 @@ public class PatronFunctions implements PatronRestService{
 
 	@Override
 	public void addPatron(Patron patron) {
-		//bookRepo.save(book);
+		patronRepo.save(patron);
 	}
 
 	@Override
