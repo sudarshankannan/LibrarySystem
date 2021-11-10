@@ -22,5 +22,4 @@ public interface BookRestService {
 	public void deleteBook(long isbn);
 
 	Book getByISBN(long id);
-
 }

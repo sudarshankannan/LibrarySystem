@@ -56,7 +56,7 @@ public class SignupController {
 		return "signup";
 	}
 	@RequestMapping("/signup")
-	public String createBook(Patron patron, BindingResult result, Model model) {
+	public String createPatron(Patron patron, BindingResult result, Model model) {
 		if (result.hasErrors()) {
 			return "signup";
 		}
