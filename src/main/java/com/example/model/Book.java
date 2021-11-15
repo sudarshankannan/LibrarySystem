@@ -12,7 +12,7 @@ public class Book{
     Book(){
         String title = null;
         String author = null;
-        int numBooks = 3;
+        this.numBooks = 3;
         Long isbn = (long) -1;
     }
     //getters

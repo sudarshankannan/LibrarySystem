@@ -14,7 +14,7 @@ public class Patron{
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
     
-    int pin;
+    Long pin;
     int numBooks;
     float fines;
     //constructors
@@ -22,7 +22,6 @@ public class Patron{
         this.first = null;
         this.last = null;
         this.id = -1;
-        this.pin = -1;
         this.numBooks = 0;
         this.fines = 0;
     }
@@ -36,7 +35,7 @@ public class Patron{
     public int getId(){
         return this.id;
     }
-    public int getPIN(){
+    public Long getPIN(){
         return this.pin;
     }
     public int getNumBooks(){
@@ -55,7 +54,7 @@ public class Patron{
     public void setId(int id){
         this.id = id;
     }
-    public void setPIN(int pin){
+    public void setPIN(Long pin){
         this.pin = pin;
     }
     public void setNumBooks(int numBooks){

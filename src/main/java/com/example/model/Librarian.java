@@ -2,7 +2,7 @@ package com.example.model;
 
 public class Librarian{
     int userID;
-    int pin;
+    long pin;
     //constructors
     Librarian(){
         this.userID = -1;
@@ -12,14 +12,14 @@ public class Librarian{
     int getUserID(){
         return this.userID;
     }
-    int getPIN(){
+    long getPIN(){
         return this.pin;
     }
     //setters
     void setFirstName(int userID){
         this.userID = userID;
     }
-    void setPIN(int pin){
+    void setPIN(long pin){
         this.pin = pin;
     }
 }

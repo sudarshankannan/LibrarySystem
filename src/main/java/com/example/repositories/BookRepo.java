@@ -14,4 +14,7 @@ import com.example.model.Book;
 public interface BookRepo extends JpaRepository<Book, Long> {
 	@Query("SELECT b FROM Books b WHERE b.title LIKE %?1%")
 	public List<Book> searchLibrary(String title);
+	
+	@Query("INSERT INTO Books (isbn, title, author) VALUES (b.isbn, b.title, b.author)")
+	public void addBook(Book b);
 }

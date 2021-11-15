@@ -11,4 +11,7 @@ import com.example.model.Patron;
 public interface PatronRepo extends JpaRepository<Patron, Long> {
 		@Query("SELECT a FROM Patrons p WHERE p.id LIKE %?1%")
 		public List<Patron> searchPatrons(int id);
+		
+		@Query("INSERT INTO Patrons (first, last, pin) VALUES (p.first, p.last, p.pin)")
+		public void createAccount(Patron p);
 }
