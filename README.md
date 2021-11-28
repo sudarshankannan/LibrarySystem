@@ -57,6 +57,16 @@ https://www.youtube.com/watch?v=WbP5RxfVQAki
 ## Screenshots
 <details>
     <summary>Show screenshots</summary>
+    ![Homepage](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/Homepage.png)
+
+![Create Account](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/CreateAccount.png)
+
+![Add Book](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/AddBook.png)
+    
+![Search Book](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/SearchBook.png)
+    
+
+
 </details>
 
 ## Instructions
