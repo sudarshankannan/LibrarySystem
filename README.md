@@ -49,6 +49,12 @@ The following use cases will be supported for the librarians
 
 <details>
     <summary>Show architecture diagrams</summary>
+    ![System Diagram](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/System%20Diagram.png)
+    ![Class Diagram](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/ClassDiagram.png)
+    ![Sequence Diagram](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/Sequence%20Diagrams.png)
+    ![Interaction Diagram](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/Interaction%20Diagrams.png)
+</details>
+
 </details>
 
 ## Demo
