@@ -1,0 +1,15 @@
+/home/suds/LibrarySystem/src/main/java/com/example/repositories/PatronRepo.java
+/home/suds/LibrarySystem/src/main/java/com/example/model/Patron.java
+/home/suds/LibrarySystem/src/main/java/com/example/model/Book.java
+/home/suds/LibrarySystem/src/main/java/com/example/model/Librarian.java
+/home/suds/LibrarySystem/src/main/java/com/example/services/BookRestService.java
+/home/suds/LibrarySystem/src/main/java/com/example/services/BookNotFoundException.java
+/home/suds/LibrarySystem/src/main/java/com/example/services/PatronNotFoundException.java
+/home/suds/LibrarySystem/src/main/java/com/example/controllers/BookController.java
+/home/suds/LibrarySystem/src/main/java/com/example/repositories/BookRepo.java
+/home/suds/LibrarySystem/src/main/java/com/example/services/BookFunctions.java
+/home/suds/LibrarySystem/src/main/java/LibrarySystemApplication.java
+/home/suds/LibrarySystem/src/main/java/com/example/controllers/SignupController.java
+/home/suds/LibrarySystem/src/main/java/com/example/services/PatronRestService.java
+/home/suds/LibrarySystem/src/main/java/com/example/services/PatronFunctions.java
+/home/suds/LibrarySystem/src/main/java/com/example/controllers/IndexController.java
