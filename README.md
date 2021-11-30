@@ -7,7 +7,7 @@
     - [Architecture](#architecture)
  - [Demo](#demo)
  - [Instructions](#instructions)
- - [Ideal User Flows](#idealUserFlows)
+ - [Ideal User Flows](#ideal-user-flows)
 
 ## About
 ### Authors
