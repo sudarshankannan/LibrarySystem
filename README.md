@@ -50,13 +50,13 @@ The following use cases will be supported for the librarians
 <details>
     <summary>Show architecture diagrams</summary>
     
-![**System Diagram**](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/System%20Diagram.png)
+![System Diagram](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/System%20Diagram.png)
     
-![**Class Diagram**](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/ClassDiagram.png)
+![Class Diagram](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/ClassDiagram.png)
     
-![**Sequence Diagram**](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/SequenceDiagrams.png)
+![Sequence Diagram](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/SequenceDiagrams.png)
     
-![**Interaction Diagram**](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/Interaction%20Diagrams.png)
+![Interaction Diagram](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/Interaction%20Diagrams.png)
     
 </details>
 
@@ -68,13 +68,14 @@ https://www.youtube.com/watch?v=WbP5RxfVQAki
 ## Screenshots
 <details>
     <summary>Show screenshots</summary>
-![**Homepage**](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/Homepage.png)
-
-![**Create Account**](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/CreateAccount.png)
-
-![**Add Book**](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/AddBook.png)
     
-![**Search Book**](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/SearchBook.png)
+![Homepage](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/Homepage.png)
+
+![Create Account](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/CreateAccount.png)
+
+![Add Book](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/AddBook.png)
+    
+![Search Book](https://github.com/sudarshankannan/LibrarySystem/blob/master/src/main/resources/images/SearchBook.png)
     
 
 
