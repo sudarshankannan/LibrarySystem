@@ -7,6 +7,7 @@
     - [Architecture](#architecture)
  - [Demo](#demo)
  - [Instructions](#instructions)
+ - [Ideal User Flows](#idealUserFlows)
 
 ## About
 ### Authors
@@ -87,6 +88,8 @@ https://www.youtube.com/watch?v=WbP5RxfVQAki
 - In application.properties, be sure to replace PASSWORD with your password
 - In Eclipse, be sure to right click on the "LibrarySystem" folder in your project explorer and click "Run As" -> Maven Build. If needed, be sure to specify in the configuration settings for the "goal" to be "package"
 - ^^This is how you BUILD the package.
+- If you want to run via eclipse, right click "LibrarySystem.java" and click "run as Java application"
+- open application @ localhost:8085
 </details>
     
 ### Docker Instructions (Run on Docker)
@@ -102,7 +105,6 @@ docker stop lib-container
 
 After completing the "Run on Docker" instructions, you can view the application by visiting localhost:8085 in your web browser.
 
+## Ideal User Flows
 https://docs.google.com/document/d/1zuMDMo0v0DpR-o11uhFZiQgS8rDho_hhnsxZJE9czXg/edit
-
-https://docs.google.com/document/d/1X97zP42rUoYN-SSkhBCIOh66pdVAcSLYAeQidbhOOKs/edit#heading=h.wefz944ef7bo
 
